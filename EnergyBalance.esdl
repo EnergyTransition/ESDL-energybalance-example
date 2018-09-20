@@ -10,7 +10,7 @@
         <port xsi:type="esdl:OutPort" id="GasNetwork1_OutPort5" connectedTo="CHP12_InPort2"/>
         <port xsi:type="esdl:OutPort" id="GasNetwork1_OutPort6" connectedTo="PowerPlant17_InPort2"/>
       </asset>
-      <asset xsi:type="esdl:GenericProducer" id="GenericProducer2" name="Gas winning">
+      <asset xsi:type="esdl:GenericProducer" id="GenericProducer2" name="Gas extraction">
         <port xsi:type="esdl:OutPort" id="GenericProducer2_OutPort1" connectedTo="GasNetwork1_InPort2"/>
       </asset>
       <asset xsi:type="esdl:GenericProducer" id="GenericProducer3" name="Gas import">
@@ -108,4 +108,13 @@
       </area>
     </area>
   </instance>
+  <energySystemInformation>
+    <carriers>
+      <carrier xsi:type="esdl:EnergyCarrier" name="Gas" id="ecgas"/>
+      <carrier xsi:type="esdl:EnergyCarrier" name="Coal" id="eccoal"/>
+      <carrier xsi:type="esdl:EnergyCarrier" name="Uranium" id="ecuran"/>
+      <carrier xsi:type="esdl:HeatCommodity" name="Heat" id="cheat"/>
+      <carrier xsi:type="esdl:ElectricityCommodity" name="Electricity" id="celec"/>
+    </carriers>
+  </energySystemInformation>
 </esdl:EnergySystem>
