@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <esdl:EnergySystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:esdl="http://www.tno.nl/esdl/1809">
-  <instance id="Instance1" name="Instance1">
-    <area id="Area1" name="Area1">
+  <instance id="Instance1" name="Energy Balance Example">
+    <area id="Area1" name="Top level Energy System ">
       <asset xsi:type="esdl:GasNetwork" id="GasNetwork1" name="Gas Network">
         <port xsi:type="esdl:OutPort" id="GasNetwork1_OutPort1" connectedTo="GConnection4_InPort2"/>
         <port xsi:type="esdl:InPort" id="GasNetwork1_InPort2" connectedTo="GenericProducer2_OutPort1"/>
@@ -75,7 +75,7 @@
         <port xsi:type="esdl:OutPort" id="PowerPlant17_OutPort1" connectedTo="ElectricityNetwork5_InPort8"/>
         <port xsi:type="esdl:InPort" id="PowerPlant17_InPort2" connectedTo="GasNetwork1_OutPort6"/>
       </asset>
-      <area id="Area2" name="Area2">
+      <area id="Area2" name="Built Environment - Houses">
         <asset xsi:type="esdl:HeatingDemand" id="HeatingDemand1" name="Heating Demand">
           <port xsi:type="esdl:InPort" id="HeatingDemand1_InPort1" connectedTo="HConnection7_OutPort1"/>
         </asset>

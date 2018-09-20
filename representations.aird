@@ -1309,14 +1309,14 @@
         </edges>
       </data>
     </ownedAnnotationEntries>
-    <ownedDiagramElements xmi:type="diagram:DNodeContainer" xmi:id="_k24I8LyzEeipiuWfn5Idig" name="Instance: Instance1">
+    <ownedDiagramElements xmi:type="diagram:DNodeContainer" xmi:id="_k24I8LyzEeipiuWfn5Idig" name="Instance: Energy Balance Example">
       <target xmi:type="esdl:Instance" href="EnergyBalance.esdl#Instance1"/>
       <semanticElements xmi:type="esdl:Instance" href="EnergyBalance.esdl#Instance1"/>
       <ownedStyle xmi:type="diagram:FlatContainerStyle" xmi:id="_k25XELyzEeipiuWfn5Idig" labelAlignment="LEFT" borderSize="4" borderSizeComputationExpression="4" backgroundStyle="Liquid" foregroundColor="217,196,215">
         <description xmi:type="style:FlatContainerStyleDescription" href="platform:/plugin/esdl.design/description/esdl.odesign#//@ownedViewpoints[name='ESDL%20Viewpoint']/@ownedRepresentations[name='ESDL%20Diagram']/@defaultLayer/@containerMappings[name='Instance']/@style"/>
       </ownedStyle>
       <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/esdl.design/description/esdl.odesign#//@ownedViewpoints[name='ESDL%20Viewpoint']/@ownedRepresentations[name='ESDL%20Diagram']/@defaultLayer/@containerMappings[name='Instance']"/>
-      <ownedDiagramElements xmi:type="diagram:DNodeContainer" xmi:id="_mjsQELyzEeipiuWfn5Idig" name="Area:Area1">
+      <ownedDiagramElements xmi:type="diagram:DNodeContainer" xmi:id="_mjsQELyzEeipiuWfn5Idig" name="Area:Top level Energy System ">
         <target xmi:type="esdl:Area" href="EnergyBalance.esdl#Area1"/>
         <semanticElements xmi:type="esdl:Area" href="EnergyBalance.esdl#Area1"/>
         <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
@@ -1327,7 +1327,7 @@
           <description xmi:type="style:FlatContainerStyleDescription" href="platform:/plugin/esdl.design/description/esdl.odesign#//@ownedViewpoints[name='ESDL%20Viewpoint']/@ownedRepresentations[name='ESDL%20Diagram']/@defaultLayer/@containerMappings[name='Instance']/@subContainerMappings[name='AreaContainer']/@style"/>
         </ownedStyle>
         <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/esdl.design/description/esdl.odesign#//@ownedViewpoints[name='ESDL%20Viewpoint']/@ownedRepresentations[name='ESDL%20Diagram']/@defaultLayer/@containerMappings[name='Instance']/@subContainerMappings[name='AreaContainer']"/>
-        <ownedDiagramElements xmi:type="diagram:DNodeContainer" xmi:id="_npjr8LyzEeipiuWfn5Idig" name="Area:Area2">
+        <ownedDiagramElements xmi:type="diagram:DNodeContainer" xmi:id="_npjr8LyzEeipiuWfn5Idig" name="Area:Built Environment - Houses">
           <target xmi:type="esdl:Area" href="EnergyBalance.esdl#Area2"/>
           <semanticElements xmi:type="esdl:Area" href="EnergyBalance.esdl#Area2"/>
           <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
