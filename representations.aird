@@ -275,7 +275,7 @@
                       <layoutConstraint xmi:type="notation:Bounds" xmi:id="_AX5N9by0EeipiuWfn5Idig"/>
                     </children>
                     <styles xmi:type="notation:ShapeStyle" xmi:id="_AX3_0by0EeipiuWfn5Idig" fontName="Segoe UI" fontHeight="4"/>
-                    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_AX3_0ry0EeipiuWfn5Idig" x="12" y="32" width="10" height="10"/>
+                    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_AX3_0ry0EeipiuWfn5Idig" x="48" y="32" width="10" height="10"/>
                   </children>
                   <children xmi:type="notation:Node" xmi:id="_AX4m4Ly0EeipiuWfn5Idig" type="3001" element="_AWOaALy0EeipiuWfn5Idig">
                     <children xmi:type="notation:Node" xmi:id="_AX4m47y0EeipiuWfn5Idig" type="5001">
@@ -336,6 +336,17 @@
                     <styles xmi:type="notation:ShapeStyle" xmi:id="_OHaagbzLEeipiuWfn5Idig" fontName="Segoe UI" fontHeight="4"/>
                     <layoutConstraint xmi:type="notation:Bounds" xmi:id="_OHaagrzLEeipiuWfn5Idig" x="112" y="4" width="10" height="10"/>
                   </children>
+                  <children xmi:type="notation:Node" xmi:id="_u6ScIM1dEeiCivoStpSQ6Q" type="3001" element="_u3BFsM1dEeiCivoStpSQ6Q">
+                    <children xmi:type="notation:Node" xmi:id="_u6TDMM1dEeiCivoStpSQ6Q" type="5001">
+                      <layoutConstraint xmi:type="notation:Location" xmi:id="_u6TDMc1dEeiCivoStpSQ6Q" x="-1"/>
+                    </children>
+                    <children xmi:type="notation:Node" xmi:id="_u6TqQM1dEeiCivoStpSQ6Q" type="3003" element="_u3BswM1dEeiCivoStpSQ6Q">
+                      <styles xmi:type="notation:ShapeStyle" xmi:id="_u6TqQc1dEeiCivoStpSQ6Q" fontName=".AppleSystemUIFont"/>
+                      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_u6TqQs1dEeiCivoStpSQ6Q"/>
+                    </children>
+                    <styles xmi:type="notation:ShapeStyle" xmi:id="_u6ScIc1dEeiCivoStpSQ6Q" fontName=".AppleSystemUIFont" fontHeight="4"/>
+                    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_u6ScIs1dEeiCivoStpSQ6Q" x="-2" y="30" width="10" height="10"/>
+                  </children>
                   <styles xmi:type="notation:ShapeStyle" xmi:id="_AX2xsby0EeipiuWfn5Idig" fontName="Segoe UI" fontHeight="8" bold="true"/>
                   <layoutConstraint xmi:type="notation:Bounds" xmi:id="_AX2xsry0EeipiuWfn5Idig" x="559" y="426" width="120" height="40"/>
                 </children>
@@ -352,14 +363,14 @@
                       <layoutConstraint xmi:type="notation:Bounds" xmi:id="_BYV-Ury0EeipiuWfn5Idig"/>
                     </children>
                     <styles xmi:type="notation:ShapeStyle" xmi:id="_BYUwMby0EeipiuWfn5Idig" fontName="Segoe UI" fontHeight="4"/>
-                    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_BYUwMry0EeipiuWfn5Idig" x="72" y="-2" width="10" height="10"/>
+                    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_BYUwMry0EeipiuWfn5Idig" x="-2" y="12" width="10" height="10"/>
                   </children>
                   <children xmi:type="notation:Node" xmi:id="_BYVXQry0EeipiuWfn5Idig" type="3003" element="_BWe9ILy0EeipiuWfn5Idig">
                     <styles xmi:type="notation:ShapeStyle" xmi:id="_BYVXQ7y0EeipiuWfn5Idig" fontName="Segoe UI"/>
                     <layoutConstraint xmi:type="notation:Bounds" xmi:id="_BYVXRLy0EeipiuWfn5Idig"/>
                   </children>
                   <styles xmi:type="notation:ShapeStyle" xmi:id="_BYTiEby0EeipiuWfn5Idig" fontColor="16777215" fontName="Segoe UI" fontHeight="8" bold="true"/>
-                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_BYTiEry0EeipiuWfn5Idig" x="499" y="546" width="120" height="40"/>
+                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_BYTiEry0EeipiuWfn5Idig" x="643" y="618" width="120" height="40"/>
                 </children>
                 <children xmi:type="notation:Node" xmi:id="_BxYJYLy0EeipiuWfn5Idig" type="3007" element="_BxFOcLy0EeipiuWfn5Idig">
                   <children xmi:type="notation:Node" xmi:id="_BxYJY7y0EeipiuWfn5Idig" type="5003">
@@ -500,6 +511,17 @@
                     </children>
                     <styles xmi:type="notation:ShapeStyle" xmi:id="_AoGVsbzLEeipiuWfn5Idig" fontName="Segoe UI" fontHeight="4"/>
                     <layoutConstraint xmi:type="notation:Bounds" xmi:id="_AoGVsrzLEeipiuWfn5Idig" x="112" y="30" width="10" height="10"/>
+                  </children>
+                  <children xmi:type="notation:Node" xmi:id="_IiEuoM1eEeiCivoStpSQ6Q" type="3001" element="_IhuwYM1eEeiCivoStpSQ6Q">
+                    <children xmi:type="notation:Node" xmi:id="_IiFVsM1eEeiCivoStpSQ6Q" type="5001">
+                      <layoutConstraint xmi:type="notation:Location" xmi:id="_IiFVsc1eEeiCivoStpSQ6Q" x="-1"/>
+                    </children>
+                    <children xmi:type="notation:Node" xmi:id="_IiF8wM1eEeiCivoStpSQ6Q" type="3003" element="_IhvXcM1eEeiCivoStpSQ6Q">
+                      <styles xmi:type="notation:ShapeStyle" xmi:id="_IiF8wc1eEeiCivoStpSQ6Q" fontName=".AppleSystemUIFont"/>
+                      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_IiF8ws1eEeiCivoStpSQ6Q"/>
+                    </children>
+                    <styles xmi:type="notation:ShapeStyle" xmi:id="_IiEuoc1eEeiCivoStpSQ6Q" fontName=".AppleSystemUIFont" fontHeight="4"/>
+                    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_IiEuos1eEeiCivoStpSQ6Q" x="-2" y="30" width="10" height="10"/>
                   </children>
                   <styles xmi:type="notation:ShapeStyle" xmi:id="_H5ywwbzCEeipiuWfn5Idig" fontName="Segoe UI" fontHeight="8" bold="true"/>
                   <layoutConstraint xmi:type="notation:Bounds" xmi:id="_H5ywwrzCEeipiuWfn5Idig" x="703" y="270" width="120" height="40"/>
@@ -878,17 +900,92 @@
                   <styles xmi:type="notation:ShapeStyle" xmi:id="_DpRnsbzLEeipiuWfn5Idig" fontColor="16777215" fontName="Segoe UI" fontHeight="8" bold="true"/>
                   <layoutConstraint xmi:type="notation:Bounds" xmi:id="_DpRnsrzLEeipiuWfn5Idig" x="931" y="318" width="120" height="40"/>
                 </children>
+                <children xmi:type="notation:Node" xmi:id="_ZT9M4M1dEeiCivoStpSQ6Q" type="3008" element="_ZPkcIM1dEeiCivoStpSQ6Q">
+                  <children xmi:type="notation:Node" xmi:id="_ZUA3QM1dEeiCivoStpSQ6Q" type="5005"/>
+                  <children xmi:type="notation:Node" xmi:id="_ZUBeUM1dEeiCivoStpSQ6Q" type="7002">
+                    <children xmi:type="notation:Node" xmi:id="_om810M1dEeiCivoStpSQ6Q" type="3007" element="_omimIM1dEeiCivoStpSQ6Q">
+                      <children xmi:type="notation:Node" xmi:id="_om-D8M1dEeiCivoStpSQ6Q" type="5003">
+                        <layoutConstraint xmi:type="notation:Location" xmi:id="_om-D8c1dEeiCivoStpSQ6Q" y="5"/>
+                      </children>
+                      <children xmi:type="notation:Node" xmi:id="_om-rAM1dEeiCivoStpSQ6Q" type="3001" element="_omjNMc1dEeiCivoStpSQ6Q">
+                        <children xmi:type="notation:Node" xmi:id="_om_SEM1dEeiCivoStpSQ6Q" type="5001">
+                          <layoutConstraint xmi:type="notation:Location" xmi:id="_om_SEc1dEeiCivoStpSQ6Q" x="-1"/>
+                        </children>
+                        <children xmi:type="notation:Node" xmi:id="_onDjgM1dEeiCivoStpSQ6Q" type="3003" element="_omj0QM1dEeiCivoStpSQ6Q">
+                          <styles xmi:type="notation:ShapeStyle" xmi:id="_onDjgc1dEeiCivoStpSQ6Q" fontName=".AppleSystemUIFont"/>
+                          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_onDjgs1dEeiCivoStpSQ6Q"/>
+                        </children>
+                        <styles xmi:type="notation:ShapeStyle" xmi:id="_om-rAc1dEeiCivoStpSQ6Q" fontName=".AppleSystemUIFont" fontHeight="4"/>
+                        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_om-rAs1dEeiCivoStpSQ6Q" x="112" y="19" width="10" height="10"/>
+                      </children>
+                      <children xmi:type="notation:Node" xmi:id="_onC8cM1dEeiCivoStpSQ6Q" type="3003" element="_omjNMM1dEeiCivoStpSQ6Q">
+                        <styles xmi:type="notation:ShapeStyle" xmi:id="_onC8cc1dEeiCivoStpSQ6Q" fontName=".AppleSystemUIFont"/>
+                        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_onC8cs1dEeiCivoStpSQ6Q"/>
+                      </children>
+                      <styles xmi:type="notation:ShapeStyle" xmi:id="_om810c1dEeiCivoStpSQ6Q" fontColor="16777215" fontName=".AppleSystemUIFont" fontHeight="8" bold="true"/>
+                      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_om810s1dEeiCivoStpSQ6Q" x="19" y="26" width="120" height="40"/>
+                    </children>
+                    <children xmi:type="notation:Node" xmi:id="_qA8HkM1dEeiCivoStpSQ6Q" type="3007" element="_qAh34M1dEeiCivoStpSQ6Q">
+                      <children xmi:type="notation:Node" xmi:id="_qA8Hk81dEeiCivoStpSQ6Q" type="5003">
+                        <layoutConstraint xmi:type="notation:Location" xmi:id="_qA8HlM1dEeiCivoStpSQ6Q" y="5"/>
+                      </children>
+                      <children xmi:type="notation:Node" xmi:id="_qA8uoM1dEeiCivoStpSQ6Q" type="3001" element="_qAie8M1dEeiCivoStpSQ6Q">
+                        <children xmi:type="notation:Node" xmi:id="_qA8uo81dEeiCivoStpSQ6Q" type="5001">
+                          <layoutConstraint xmi:type="notation:Location" xmi:id="_qA8upM1dEeiCivoStpSQ6Q" x="-1"/>
+                        </children>
+                        <children xmi:type="notation:Node" xmi:id="_qA9Vs81dEeiCivoStpSQ6Q" type="3003" element="_qAie8c1dEeiCivoStpSQ6Q">
+                          <styles xmi:type="notation:ShapeStyle" xmi:id="_qA9VtM1dEeiCivoStpSQ6Q" fontName=".AppleSystemUIFont"/>
+                          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_qA9Vtc1dEeiCivoStpSQ6Q"/>
+                        </children>
+                        <styles xmi:type="notation:ShapeStyle" xmi:id="_qA8uoc1dEeiCivoStpSQ6Q" fontName=".AppleSystemUIFont" fontHeight="4"/>
+                        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_qA8uos1dEeiCivoStpSQ6Q" x="112" y="16" width="10" height="10"/>
+                      </children>
+                      <children xmi:type="notation:Node" xmi:id="_qA9VsM1dEeiCivoStpSQ6Q" type="3003" element="_qAh34c1dEeiCivoStpSQ6Q">
+                        <styles xmi:type="notation:ShapeStyle" xmi:id="_qA9Vsc1dEeiCivoStpSQ6Q" fontName=".AppleSystemUIFont"/>
+                        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_qA9Vss1dEeiCivoStpSQ6Q"/>
+                      </children>
+                      <styles xmi:type="notation:ShapeStyle" xmi:id="_qA8Hkc1dEeiCivoStpSQ6Q" fontColor="16777215" fontName=".AppleSystemUIFont" fontHeight="8" bold="true"/>
+                      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_qA8Hks1dEeiCivoStpSQ6Q" x="19" y="106" width="120" height="40"/>
+                    </children>
+                    <children xmi:type="notation:Node" xmi:id="_rp63kM1dEeiCivoStpSQ6Q" type="3007" element="_rpkSQM1dEeiCivoStpSQ6Q">
+                      <children xmi:type="notation:Node" xmi:id="_rp7eoM1dEeiCivoStpSQ6Q" type="5003">
+                        <layoutConstraint xmi:type="notation:Location" xmi:id="_rp7eoc1dEeiCivoStpSQ6Q" y="5"/>
+                      </children>
+                      <children xmi:type="notation:Node" xmi:id="_rp7eos1dEeiCivoStpSQ6Q" type="3001" element="_rpk5UM1dEeiCivoStpSQ6Q">
+                        <children xmi:type="notation:Node" xmi:id="_rp7epc1dEeiCivoStpSQ6Q" type="5001">
+                          <layoutConstraint xmi:type="notation:Location" xmi:id="_rp7eps1dEeiCivoStpSQ6Q" x="-1"/>
+                        </children>
+                        <children xmi:type="notation:Node" xmi:id="_rp8Fs81dEeiCivoStpSQ6Q" type="3003" element="_rpk5Uc1dEeiCivoStpSQ6Q">
+                          <styles xmi:type="notation:ShapeStyle" xmi:id="_rp8FtM1dEeiCivoStpSQ6Q" fontName=".AppleSystemUIFont"/>
+                          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_rp8Ftc1dEeiCivoStpSQ6Q"/>
+                        </children>
+                        <styles xmi:type="notation:ShapeStyle" xmi:id="_rp7eo81dEeiCivoStpSQ6Q" fontName=".AppleSystemUIFont" fontHeight="4"/>
+                        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_rp7epM1dEeiCivoStpSQ6Q" x="112" y="12" width="10" height="10"/>
+                      </children>
+                      <children xmi:type="notation:Node" xmi:id="_rp8FsM1dEeiCivoStpSQ6Q" type="3003" element="_rpkSQc1dEeiCivoStpSQ6Q">
+                        <styles xmi:type="notation:ShapeStyle" xmi:id="_rp8Fsc1dEeiCivoStpSQ6Q" fontName=".AppleSystemUIFont"/>
+                        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_rp8Fss1dEeiCivoStpSQ6Q"/>
+                      </children>
+                      <styles xmi:type="notation:ShapeStyle" xmi:id="_rp63kc1dEeiCivoStpSQ6Q" fontColor="16777215" fontName=".AppleSystemUIFont" fontHeight="8" bold="true"/>
+                      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_rp63ks1dEeiCivoStpSQ6Q" x="15" y="186" width="120" height="40"/>
+                    </children>
+                    <styles xmi:type="notation:SortingStyle" xmi:id="_ZUBeUc1dEeiCivoStpSQ6Q"/>
+                    <styles xmi:type="notation:FilteringStyle" xmi:id="_ZUBeUs1dEeiCivoStpSQ6Q"/>
+                  </children>
+                  <styles xmi:type="notation:ShapeStyle" xmi:id="_ZT9M4c1dEeiCivoStpSQ6Q" fontName=".AppleSystemUIFont" fontHeight="8" underline="true"/>
+                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ZT9M4s1dEeiCivoStpSQ6Q" x="7" y="522" width="493" height="261"/>
+                </children>
                 <styles xmi:type="notation:SortingStyle" xmi:id="_mjwhgryzEeipiuWfn5Idig"/>
                 <styles xmi:type="notation:FilteringStyle" xmi:id="_mjwhg7yzEeipiuWfn5Idig"/>
               </children>
               <styles xmi:type="notation:ShapeStyle" xmi:id="_mjv6cbyzEeipiuWfn5Idig" fontName="Segoe UI" fontHeight="8" underline="true"/>
-              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_mjv6cryzEeipiuWfn5Idig" x="16" y="2" width="1261" height="649"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_mjv6cryzEeipiuWfn5Idig" x="16" y="2" width="1261" height="963"/>
             </children>
             <styles xmi:type="notation:SortingStyle" xmi:id="_k29ogryzEeipiuWfn5Idig"/>
             <styles xmi:type="notation:FilteringStyle" xmi:id="_k29og7yzEeipiuWfn5Idig"/>
           </children>
           <styles xmi:type="notation:ShapeStyle" xmi:id="_k29BcbyzEeipiuWfn5Idig" fontName="Segoe UI" fontHeight="8"/>
-          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_k29BcryzEeipiuWfn5Idig" x="12" y="12" width="1287" height="699"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_k29BcryzEeipiuWfn5Idig" x="12" y="12" width="1287" height="1023"/>
         </children>
         <children xmi:type="notation:Node" xmi:id="_z-76ILzoEei0kNUhFE-bGA" type="2002" element="_z5wfMLzoEei0kNUhFE-bGA">
           <children xmi:type="notation:Node" xmi:id="_z_CAwLzoEei0kNUhFE-bGA" type="5006"/>
@@ -1090,17 +1187,17 @@
         </edges>
         <edges xmi:type="notation:Edge" xmi:id="_i_r4oLzFEeipiuWfn5Idig" type="4001" element="_i-5OcLzFEeipiuWfn5Idig" source="_BYUwMLy0EeipiuWfn5Idig" target="_AX3_0Ly0EeipiuWfn5Idig">
           <children xmi:type="notation:Node" xmi:id="_i_sfsLzFEeipiuWfn5Idig" type="6001">
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_i_sfsbzFEeipiuWfn5Idig" y="-10"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_i_sfsbzFEeipiuWfn5Idig" x="6" y="-1"/>
           </children>
           <children xmi:type="notation:Node" xmi:id="_i_tGwLzFEeipiuWfn5Idig" type="6002">
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_i_tGwbzFEeipiuWfn5Idig" y="10"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_i_tGwbzFEeipiuWfn5Idig" x="-4" y="-10"/>
           </children>
           <children xmi:type="notation:Node" xmi:id="_i_tGwrzFEeipiuWfn5Idig" type="6003">
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_i_tGw7zFEeipiuWfn5Idig" y="10"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_i_tGw7zFEeipiuWfn5Idig" x="-11" y="-4"/>
           </children>
           <styles xmi:type="notation:ConnectorStyle" xmi:id="_i_r4obzFEeipiuWfn5Idig"/>
           <styles xmi:type="notation:FontStyle" xmi:id="_i_r4orzFEeipiuWfn5Idig" fontName="Segoe UI"/>
-          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_i_r4o7zFEeipiuWfn5Idig" points="[0, -5, 0, 81]$[0, -81, 0, 5]"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_i_r4o7zFEeipiuWfn5Idig" points="[-5, 0, 29, 172]$[-34, 0, 0, 172]$[-34, -167, 0, 5]"/>
           <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_i_tt0LzFEeipiuWfn5Idig" id="(0.5,0.5)"/>
           <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_i_tt0bzFEeipiuWfn5Idig" id="(0.5,0.5)"/>
         </edges>
@@ -1375,6 +1472,38 @@
           <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_mwS_WbzMEeipiuWfn5Idig" points="[0, -5, 0, 45]$[0, -45, 0, 5]"/>
           <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_mwTmYrzMEeipiuWfn5Idig" id="(0.5,0.5)"/>
           <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_mwTmY7zMEeipiuWfn5Idig" id="(0.5,0.5)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_w2oNAM1dEeiCivoStpSQ6Q" type="4001" element="_wzgAgM1dEeiCivoStpSQ6Q" source="_u6ScIM1dEeiCivoStpSQ6Q" target="_rp7eos1dEeiCivoStpSQ6Q">
+          <children xmi:type="notation:Node" xmi:id="_w2o0EM1dEeiCivoStpSQ6Q" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_w2o0Ec1dEeiCivoStpSQ6Q" y="10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_w2pbIM1dEeiCivoStpSQ6Q" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_w2pbIc1dEeiCivoStpSQ6Q" x="10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_w2pbIs1dEeiCivoStpSQ6Q" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_w2pbI81dEeiCivoStpSQ6Q" y="-10"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_w2oNAc1dEeiCivoStpSQ6Q"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_w2oNAs1dEeiCivoStpSQ6Q" fontName=".AppleSystemUIFont"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_w2oNA81dEeiCivoStpSQ6Q" points="[0, 5, 418, -265]$[0, 270, 418, 0]$[-413, 270, 5, 0]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_w2qpQM1dEeiCivoStpSQ6Q" id="(0.5,0.5)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_w2qpQc1dEeiCivoStpSQ6Q" id="(0.5,0.5)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_KTzK8M1eEeiCivoStpSQ6Q" type="4001" element="_KTb-kM1eEeiCivoStpSQ6Q" source="_IiEuoM1eEeiCivoStpSQ6Q" target="_qA8uoM1dEeiCivoStpSQ6Q">
+          <children xmi:type="notation:Node" xmi:id="_KTzK9M1eEeiCivoStpSQ6Q" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_KTzK9c1eEeiCivoStpSQ6Q" x="-10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_KTzK9s1eEeiCivoStpSQ6Q" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_KTzK981eEeiCivoStpSQ6Q" x="-33" y="-10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_KTzK-M1eEeiCivoStpSQ6Q" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_KTzK-c1eEeiCivoStpSQ6Q" y="-10"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_KTzK8c1eEeiCivoStpSQ6Q"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_KTzK8s1eEeiCivoStpSQ6Q" fontName=".AppleSystemUIFont"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_KTzK881eEeiCivoStpSQ6Q" points="[-5, 0, 553, -350]$[-196, 0, 362, -350]$[-196, 350, 362, 0]$[-553, 350, 5, 0]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_KTzK-s1eEeiCivoStpSQ6Q" id="(0.5,0.5)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_KTzK-81eEeiCivoStpSQ6Q" id="(0.5,0.5)"/>
         </edges>
       </data>
     </ownedAnnotationEntries>
@@ -1698,6 +1827,17 @@
             </ownedStyle>
             <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/esdl.design/description/esdl.odesign#//@ownedViewpoints[name='ESDL%20Viewpoint']/@ownedRepresentations[name='ESDL%20Diagram']/@defaultLayer/@containerMappings[name='Instance']/@subContainerMappings[name='AreaContainer']/@subNodeMappings[name='EnergyAsset']/@borderedNodeMappings[name='OutPorts']"/>
           </ownedBorderedNodes>
+          <ownedBorderedNodes xmi:type="diagram:DNode" xmi:id="_u3BFsM1dEeiCivoStpSQ6Q" tooltipText="GasNetwork1_OutPort7" outgoingEdges="_wzgAgM1dEeiCivoStpSQ6Q" width="1" height="1" resizeKind="NSEW">
+            <target xmi:type="esdl:OutPort" href="EnergyBalance.esdl#GasNetwork1_OutPort7"/>
+            <semanticElements xmi:type="esdl:OutPort" href="EnergyBalance.esdl#GasNetwork1_OutPort7"/>
+            <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+            <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+            <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+            <ownedStyle xmi:type="diagram:Square" xmi:id="_u3BswM1dEeiCivoStpSQ6Q" labelSize="4" showIcon="false" labelAlignment="LEFT" borderSize="1" borderSizeComputationExpression="1" borderColor="239,41,41" borderLineStyle="dot" width="1" height="1" color="224,133,3">
+              <description xmi:type="style:SquareDescription" href="platform:/plugin/esdl.design/description/esdl.odesign#//@ownedViewpoints[name='ESDL%20Viewpoint']/@ownedRepresentations[name='ESDL%20Diagram']/@defaultLayer/@containerMappings[name='Instance']/@subContainerMappings[name='AreaContainer']/@subNodeMappings[name='EnergyAsset']/@borderedNodeMappings[name='OutPorts']/@style"/>
+            </ownedStyle>
+            <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/esdl.design/description/esdl.odesign#//@ownedViewpoints[name='ESDL%20Viewpoint']/@ownedRepresentations[name='ESDL%20Diagram']/@defaultLayer/@containerMappings[name='Instance']/@subContainerMappings[name='AreaContainer']/@subNodeMappings[name='EnergyAsset']/@borderedNodeMappings[name='OutPorts']"/>
+          </ownedBorderedNodes>
           <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
           <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
           <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
@@ -1721,6 +1861,9 @@
             </ownedStyle>
             <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/esdl.design/description/esdl.odesign#//@ownedViewpoints[name='ESDL%20Viewpoint']/@ownedRepresentations[name='ESDL%20Diagram']/@defaultLayer/@containerMappings[name='Instance']/@subContainerMappings[name='AreaContainer']/@subNodeMappings[name='EnergyAsset']/@borderedNodeMappings[name='OutPorts']"/>
           </ownedBorderedNodes>
+          <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+          <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+          <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
           <ownedStyle xmi:type="diagram:Square" xmi:id="_BWe9ILy0EeipiuWfn5Idig" labelColor="255,255,255" borderColor="102,117,0" labelPosition="node" width="12" height="4" color="147,168,0">
             <labelFormat>bold</labelFormat>
             <description xmi:type="style:SquareDescription" href="platform:/plugin/esdl.design/description/esdl.odesign#//@ownedViewpoints[name='ESDL%20Viewpoint']/@ownedRepresentations[name='ESDL%20Diagram']/@defaultLayer/@containerMappings[name='Instance']/@subContainerMappings[name='AreaContainer']/@subNodeMappings[name='EnergyAsset']/@conditionnalStyles.4/@style"/>
@@ -1854,6 +1997,17 @@
               <description xmi:type="style:SquareDescription" href="platform:/plugin/esdl.design/description/esdl.odesign#//@ownedViewpoints[name='ESDL%20Viewpoint']/@ownedRepresentations[name='ESDL%20Diagram']/@defaultLayer/@containerMappings[name='Instance']/@subContainerMappings[name='AreaContainer']/@subNodeMappings[name='EnergyAsset']/@borderedNodeMappings[name='InPorts']/@style"/>
             </ownedStyle>
             <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/esdl.design/description/esdl.odesign#//@ownedViewpoints[name='ESDL%20Viewpoint']/@ownedRepresentations[name='ESDL%20Diagram']/@defaultLayer/@containerMappings[name='Instance']/@subContainerMappings[name='AreaContainer']/@subNodeMappings[name='EnergyAsset']/@borderedNodeMappings[name='InPorts']"/>
+          </ownedBorderedNodes>
+          <ownedBorderedNodes xmi:type="diagram:DNode" xmi:id="_IhuwYM1eEeiCivoStpSQ6Q" tooltipText="ElectricityNetwork5_OutPort9" outgoingEdges="_KTb-kM1eEeiCivoStpSQ6Q" width="1" height="1" resizeKind="NSEW">
+            <target xmi:type="esdl:OutPort" href="EnergyBalance.esdl#ElectricityNetwork5_OutPort9"/>
+            <semanticElements xmi:type="esdl:OutPort" href="EnergyBalance.esdl#ElectricityNetwork5_OutPort9"/>
+            <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+            <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+            <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+            <ownedStyle xmi:type="diagram:Square" xmi:id="_IhvXcM1eEeiCivoStpSQ6Q" labelSize="4" showIcon="false" labelAlignment="LEFT" borderSize="1" borderSizeComputationExpression="1" borderColor="239,41,41" borderLineStyle="dot" width="1" height="1" color="224,133,3">
+              <description xmi:type="style:SquareDescription" href="platform:/plugin/esdl.design/description/esdl.odesign#//@ownedViewpoints[name='ESDL%20Viewpoint']/@ownedRepresentations[name='ESDL%20Diagram']/@defaultLayer/@containerMappings[name='Instance']/@subContainerMappings[name='AreaContainer']/@subNodeMappings[name='EnergyAsset']/@borderedNodeMappings[name='OutPorts']/@style"/>
+            </ownedStyle>
+            <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/esdl.design/description/esdl.odesign#//@ownedViewpoints[name='ESDL%20Viewpoint']/@ownedRepresentations[name='ESDL%20Diagram']/@defaultLayer/@containerMappings[name='Instance']/@subContainerMappings[name='AreaContainer']/@subNodeMappings[name='EnergyAsset']/@borderedNodeMappings[name='OutPorts']"/>
           </ownedBorderedNodes>
           <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
           <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
@@ -2229,6 +2383,84 @@
           </ownedStyle>
           <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/esdl.design/description/esdl.odesign#//@ownedViewpoints[name='ESDL%20Viewpoint']/@ownedRepresentations[name='ESDL%20Diagram']/@defaultLayer/@containerMappings[name='Instance']/@subContainerMappings[name='AreaContainer']/@subNodeMappings[name='EnergyAsset']"/>
         </ownedDiagramElements>
+        <ownedDiagramElements xmi:type="diagram:DNodeContainer" xmi:id="_ZPkcIM1dEeiCivoStpSQ6Q" name="Area:Other demand">
+          <target xmi:type="esdl:Area" href="EnergyBalance.esdl#Area2"/>
+          <semanticElements xmi:type="esdl:Area" href="EnergyBalance.esdl#Area2"/>
+          <ownedStyle xmi:type="diagram:FlatContainerStyle" xmi:id="_ZPlDMM1dEeiCivoStpSQ6Q" borderSize="1" borderSizeComputationExpression="1" foregroundColor="200,255,200">
+            <labelFormat>underline</labelFormat>
+            <description xmi:type="style:FlatContainerStyleDescription" href="platform:/plugin/esdl.design/description/esdl.odesign#//@ownedViewpoints[name='ESDL%20Viewpoint']/@ownedRepresentations[name='ESDL%20Diagram']/@defaultLayer/@containerMappings[name='Instance']/@subContainerMappings[name='AreaContainer']/@style"/>
+          </ownedStyle>
+          <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/esdl.design/description/esdl.odesign#//@ownedViewpoints[name='ESDL%20Viewpoint']/@ownedRepresentations[name='ESDL%20Diagram']/@defaultLayer/@containerMappings[name='Instance']/@subContainerMappings[name='AreaContainer']"/>
+          <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_omimIM1dEeiCivoStpSQ6Q" name="Heating Demand" width="12" height="4" resizeKind="NSEW">
+            <target xmi:type="esdl:HeatingDemand" href="EnergyBalance.esdl#HeatingDemand1"/>
+            <semanticElements xmi:type="esdl:HeatingDemand" href="EnergyBalance.esdl#HeatingDemand1"/>
+            <ownedBorderedNodes xmi:type="diagram:DNode" xmi:id="_omjNMc1dEeiCivoStpSQ6Q" tooltipText="HeatingDemand1_InPort1" width="1" height="1" resizeKind="NSEW">
+              <target xmi:type="esdl:InPort" href="EnergyBalance.esdl#HeatingDemand1_InPort1"/>
+              <semanticElements xmi:type="esdl:InPort" href="EnergyBalance.esdl#HeatingDemand1_InPort1"/>
+              <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+              <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+              <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+              <ownedStyle xmi:type="diagram:Square" xmi:id="_omj0QM1dEeiCivoStpSQ6Q" labelSize="4" showIcon="false" labelAlignment="LEFT" borderSize="1" borderSizeComputationExpression="1" borderColor="114,159,207" borderLineStyle="dot" width="1" height="1" color="255,255,255">
+                <description xmi:type="style:SquareDescription" href="platform:/plugin/esdl.design/description/esdl.odesign#//@ownedViewpoints[name='ESDL%20Viewpoint']/@ownedRepresentations[name='ESDL%20Diagram']/@defaultLayer/@containerMappings[name='Instance']/@subContainerMappings[name='AreaContainer']/@subNodeMappings[name='EnergyAsset']/@borderedNodeMappings[name='InPorts']/@style"/>
+              </ownedStyle>
+              <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/esdl.design/description/esdl.odesign#//@ownedViewpoints[name='ESDL%20Viewpoint']/@ownedRepresentations[name='ESDL%20Diagram']/@defaultLayer/@containerMappings[name='Instance']/@subContainerMappings[name='AreaContainer']/@subNodeMappings[name='EnergyAsset']/@borderedNodeMappings[name='InPorts']"/>
+            </ownedBorderedNodes>
+            <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+            <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+            <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+            <ownedStyle xmi:type="diagram:Square" xmi:id="_omjNMM1dEeiCivoStpSQ6Q" labelColor="255,255,255" borderColor="72,116,148" labelPosition="node" width="12" height="4" color="100,158,201">
+              <labelFormat>bold</labelFormat>
+              <description xmi:type="style:SquareDescription" href="platform:/plugin/esdl.design/description/esdl.odesign#//@ownedViewpoints[name='ESDL%20Viewpoint']/@ownedRepresentations[name='ESDL%20Diagram']/@defaultLayer/@containerMappings[name='Instance']/@subContainerMappings[name='AreaContainer']/@subNodeMappings[name='EnergyAsset']/@conditionnalStyles.1/@style"/>
+            </ownedStyle>
+            <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/esdl.design/description/esdl.odesign#//@ownedViewpoints[name='ESDL%20Viewpoint']/@ownedRepresentations[name='ESDL%20Diagram']/@defaultLayer/@containerMappings[name='Instance']/@subContainerMappings[name='AreaContainer']/@subNodeMappings[name='EnergyAsset']"/>
+          </ownedDiagramElements>
+          <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_qAh34M1dEeiCivoStpSQ6Q" name="Electricity Demand" width="12" height="4" resizeKind="NSEW">
+            <target xmi:type="esdl:ElectricityDemand" href="EnergyBalance.esdl#ElectricityDemand2"/>
+            <semanticElements xmi:type="esdl:ElectricityDemand" href="EnergyBalance.esdl#ElectricityDemand2"/>
+            <ownedBorderedNodes xmi:type="diagram:DNode" xmi:id="_qAie8M1dEeiCivoStpSQ6Q" tooltipText="ElectricityDemand2_InPort1" incomingEdges="_KTb-kM1eEeiCivoStpSQ6Q" width="1" height="1" resizeKind="NSEW">
+              <target xmi:type="esdl:InPort" href="EnergyBalance.esdl#ElectricityDemand2_InPort1"/>
+              <semanticElements xmi:type="esdl:InPort" href="EnergyBalance.esdl#ElectricityDemand2_InPort1"/>
+              <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+              <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+              <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+              <ownedStyle xmi:type="diagram:Square" xmi:id="_qAie8c1dEeiCivoStpSQ6Q" labelSize="4" showIcon="false" labelAlignment="LEFT" borderSize="1" borderSizeComputationExpression="1" borderColor="114,159,207" borderLineStyle="dot" width="1" height="1" color="255,255,255">
+                <description xmi:type="style:SquareDescription" href="platform:/plugin/esdl.design/description/esdl.odesign#//@ownedViewpoints[name='ESDL%20Viewpoint']/@ownedRepresentations[name='ESDL%20Diagram']/@defaultLayer/@containerMappings[name='Instance']/@subContainerMappings[name='AreaContainer']/@subNodeMappings[name='EnergyAsset']/@borderedNodeMappings[name='InPorts']/@style"/>
+              </ownedStyle>
+              <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/esdl.design/description/esdl.odesign#//@ownedViewpoints[name='ESDL%20Viewpoint']/@ownedRepresentations[name='ESDL%20Diagram']/@defaultLayer/@containerMappings[name='Instance']/@subContainerMappings[name='AreaContainer']/@subNodeMappings[name='EnergyAsset']/@borderedNodeMappings[name='InPorts']"/>
+            </ownedBorderedNodes>
+            <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+            <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+            <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+            <ownedStyle xmi:type="diagram:Square" xmi:id="_qAh34c1dEeiCivoStpSQ6Q" labelColor="255,255,255" borderColor="72,116,148" labelPosition="node" width="12" height="4" color="100,158,201">
+              <labelFormat>bold</labelFormat>
+              <description xmi:type="style:SquareDescription" href="platform:/plugin/esdl.design/description/esdl.odesign#//@ownedViewpoints[name='ESDL%20Viewpoint']/@ownedRepresentations[name='ESDL%20Diagram']/@defaultLayer/@containerMappings[name='Instance']/@subContainerMappings[name='AreaContainer']/@subNodeMappings[name='EnergyAsset']/@conditionnalStyles.1/@style"/>
+            </ownedStyle>
+            <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/esdl.design/description/esdl.odesign#//@ownedViewpoints[name='ESDL%20Viewpoint']/@ownedRepresentations[name='ESDL%20Diagram']/@defaultLayer/@containerMappings[name='Instance']/@subContainerMappings[name='AreaContainer']/@subNodeMappings[name='EnergyAsset']"/>
+          </ownedDiagramElements>
+          <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_rpkSQM1dEeiCivoStpSQ6Q" name="Gas Demand" width="12" height="4" resizeKind="NSEW">
+            <target xmi:type="esdl:GasDemand" href="EnergyBalance.esdl#GasDemand3"/>
+            <semanticElements xmi:type="esdl:GasDemand" href="EnergyBalance.esdl#GasDemand3"/>
+            <ownedBorderedNodes xmi:type="diagram:DNode" xmi:id="_rpk5UM1dEeiCivoStpSQ6Q" tooltipText="GasDemand3_InPort1" incomingEdges="_wzgAgM1dEeiCivoStpSQ6Q" width="1" height="1" resizeKind="NSEW">
+              <target xmi:type="esdl:InPort" href="EnergyBalance.esdl#GasDemand3_InPort1"/>
+              <semanticElements xmi:type="esdl:InPort" href="EnergyBalance.esdl#GasDemand3_InPort1"/>
+              <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+              <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+              <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+              <ownedStyle xmi:type="diagram:Square" xmi:id="_rpk5Uc1dEeiCivoStpSQ6Q" labelSize="4" showIcon="false" labelAlignment="LEFT" borderSize="1" borderSizeComputationExpression="1" borderColor="114,159,207" borderLineStyle="dot" width="1" height="1" color="255,255,255">
+                <description xmi:type="style:SquareDescription" href="platform:/plugin/esdl.design/description/esdl.odesign#//@ownedViewpoints[name='ESDL%20Viewpoint']/@ownedRepresentations[name='ESDL%20Diagram']/@defaultLayer/@containerMappings[name='Instance']/@subContainerMappings[name='AreaContainer']/@subNodeMappings[name='EnergyAsset']/@borderedNodeMappings[name='InPorts']/@style"/>
+              </ownedStyle>
+              <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/esdl.design/description/esdl.odesign#//@ownedViewpoints[name='ESDL%20Viewpoint']/@ownedRepresentations[name='ESDL%20Diagram']/@defaultLayer/@containerMappings[name='Instance']/@subContainerMappings[name='AreaContainer']/@subNodeMappings[name='EnergyAsset']/@borderedNodeMappings[name='InPorts']"/>
+            </ownedBorderedNodes>
+            <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+            <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+            <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+            <ownedStyle xmi:type="diagram:Square" xmi:id="_rpkSQc1dEeiCivoStpSQ6Q" labelColor="255,255,255" borderColor="72,116,148" labelPosition="node" width="12" height="4" color="100,158,201">
+              <labelFormat>bold</labelFormat>
+              <description xmi:type="style:SquareDescription" href="platform:/plugin/esdl.design/description/esdl.odesign#//@ownedViewpoints[name='ESDL%20Viewpoint']/@ownedRepresentations[name='ESDL%20Diagram']/@defaultLayer/@containerMappings[name='Instance']/@subContainerMappings[name='AreaContainer']/@subNodeMappings[name='EnergyAsset']/@conditionnalStyles.1/@style"/>
+            </ownedStyle>
+            <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/esdl.design/description/esdl.odesign#//@ownedViewpoints[name='ESDL%20Viewpoint']/@ownedRepresentations[name='ESDL%20Diagram']/@defaultLayer/@containerMappings[name='Instance']/@subContainerMappings[name='AreaContainer']/@subNodeMappings[name='EnergyAsset']"/>
+          </ownedDiagramElements>
+        </ownedDiagramElements>
       </ownedDiagramElements>
     </ownedDiagramElements>
     <ownedDiagramElements xmi:type="diagram:DEdge" xmi:id="_65sf4LyzEeipiuWfn5Idig" sourceNode="_rvltMLyzEeipiuWfn5Idig" targetNode="_qAhjULyzEeipiuWfn5Idig">
@@ -2470,6 +2702,20 @@
           <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/esdl.design/description/esdl.odesign#//@ownedViewpoints[name='ESDL%20Viewpoint']/@ownedRepresentations[name='ESDL%20Diagram']/@defaultLayer/@containerMappings[name='EnergySystemInformation']/@subContainerMappings[name='Carriers']/@subContainerMappings[name='CarrierContainer']"/>
         </ownedDiagramElements>
       </ownedDiagramElements>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" xmi:id="_wzgAgM1dEeiCivoStpSQ6Q" sourceNode="_u3BFsM1dEeiCivoStpSQ6Q" targetNode="_rpk5UM1dEeiCivoStpSQ6Q">
+      <target xmi:type="esdl:OutPort" href="EnergyBalance.esdl#GasNetwork1_OutPort7"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_wzgnkM1dEeiCivoStpSQ6Q" targetArrow="InputFillClosedArrow" size="2" centered="Both" strokeColor="0,0,0">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/esdl.design/description/esdl.odesign#//@ownedViewpoints[name='ESDL%20Viewpoint']/@ownedRepresentations[name='ESDL%20Diagram']/@defaultLayer/@edgeMappings[name='ConnectedTo']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/esdl.design/description/esdl.odesign#//@ownedViewpoints[name='ESDL%20Viewpoint']/@ownedRepresentations[name='ESDL%20Diagram']/@defaultLayer/@edgeMappings[name='ConnectedTo']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" xmi:id="_KTb-kM1eEeiCivoStpSQ6Q" sourceNode="_IhuwYM1eEeiCivoStpSQ6Q" targetNode="_qAie8M1dEeiCivoStpSQ6Q">
+      <target xmi:type="esdl:OutPort" href="EnergyBalance.esdl#ElectricityNetwork5_OutPort9"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_KTb-kc1eEeiCivoStpSQ6Q" targetArrow="InputFillClosedArrow" size="2" centered="Both" strokeColor="0,0,0">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/esdl.design/description/esdl.odesign#//@ownedViewpoints[name='ESDL%20Viewpoint']/@ownedRepresentations[name='ESDL%20Diagram']/@defaultLayer/@edgeMappings[name='ConnectedTo']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/esdl.design/description/esdl.odesign#//@ownedViewpoints[name='ESDL%20Viewpoint']/@ownedRepresentations[name='ESDL%20Diagram']/@defaultLayer/@edgeMappings[name='ConnectedTo']"/>
     </ownedDiagramElements>
     <description xmi:type="description_1:DiagramDescription" href="platform:/plugin/esdl.design/description/esdl.odesign#//@ownedViewpoints[name='ESDL%20Viewpoint']/@ownedRepresentations[name='ESDL%20Diagram']"/>
     <filterVariableHistory xmi:type="diagram:FilterVariableHistory" xmi:id="_kLN81LyzEeipiuWfn5Idig"/>

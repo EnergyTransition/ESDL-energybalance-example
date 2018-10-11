@@ -9,6 +9,7 @@
         <port xsi:type="esdl:OutPort" id="GasNetwork1_OutPort4" connectedTo="Losses4_InPort1"/>
         <port xsi:type="esdl:OutPort" id="GasNetwork1_OutPort5" connectedTo="CHP12_InPort2"/>
         <port xsi:type="esdl:OutPort" id="GasNetwork1_OutPort6" connectedTo="PowerPlant17_InPort2"/>
+        <port xsi:type="esdl:OutPort" id="GasNetwork1_OutPort7" connectedTo="GasDemand3_InPort1"/>
       </asset>
       <asset xsi:type="esdl:GenericProducer" id="GenericProducer2" name="Gas extraction">
         <port xsi:type="esdl:OutPort" id="GenericProducer2_OutPort1" connectedTo="GasNetwork1_InPort2"/>
@@ -28,6 +29,7 @@
         <port xsi:type="esdl:OutPort" id="ElectricityNetwork5_OutPort6" connectedTo="HeatPump11_InPort3"/>
         <port xsi:type="esdl:InPort" id="ElectricityNetwork5_InPort7" connectedTo="PowerPlant15_OutPort1"/>
         <port xsi:type="esdl:InPort" id="ElectricityNetwork5_InPort8" connectedTo="PowerPlant17_OutPort1"/>
+        <port xsi:type="esdl:OutPort" id="ElectricityNetwork5_OutPort9" connectedTo="ElectricityDemand2_InPort1"/>
       </asset>
       <asset xsi:type="esdl:WindParc" id="WindParc6" name="Wind Parc">
         <port xsi:type="esdl:OutPort" id="WindParc6_OutPort1" connectedTo="ElectricityNetwork5_InPort4"/>
@@ -104,6 +106,17 @@
         </asset>
         <asset xsi:type="esdl:PVPanel" id="PVPanel8" name="Rooftop PV">
           <port xsi:type="esdl:OutPort" id="PVPanel8_OutPort1" connectedTo="ElectricityNetworkIH_InPort2"/>
+        </asset>
+      </area>
+      <area id="Area2" name="Other demand">
+        <asset xsi:type="esdl:HeatingDemand" id="HeatingDemand1" name="Heating Demand">
+          <port xsi:type="esdl:InPort" id="HeatingDemand1_InPort1"/>
+        </asset>
+        <asset xsi:type="esdl:ElectricityDemand" id="ElectricityDemand2" name="Electricity Demand">
+          <port xsi:type="esdl:InPort" id="ElectricityDemand2_InPort1" connectedTo="ElectricityNetwork5_OutPort9"/>
+        </asset>
+        <asset xsi:type="esdl:GasDemand" id="GasDemand3" name="Gas Demand">
+          <port xsi:type="esdl:InPort" id="GasDemand3_InPort1" connectedTo="GasNetwork1_OutPort7"/>
         </asset>
       </area>
     </area>
