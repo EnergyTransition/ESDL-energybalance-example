@@ -120,17 +120,17 @@
           </port>
         </asset>
         <asset xsi:type="esdl:GasDemand" id="GasDemand3" name="Gas Demand">
-          <port xsi:type="esdl:InPort" id="GasDemand3_InPort1"/>
+          <port xsi:type="esdl:InPort" id="GasDemand3_InPort1" connectedTo="GConnection4_OutPort1"/>
         </asset>
         <asset xsi:type="esdl:GConnection" id="GConnection4" name="Gas Connection">
-          <port xsi:type="esdl:OutPort" id="GConnection4_OutPort1" connectedTo="GasHeater9_InPort2"/>
+          <port xsi:type="esdl:OutPort" id="GConnection4_OutPort1" connectedTo="GasDemand3_InPort1"/>
           <port xsi:type="esdl:InPort" id="GConnection4_InPort2" connectedTo="GasNetwork1_OutPort1"/>
         </asset>
         <asset xsi:type="esdl:ElectricityNetwork" id="ElectricityNetworkIH" name="Electricity Network">
           <port xsi:type="esdl:OutPort" id="ElectricityNetworkIH_OutPort1" connectedTo="ElectricityDemand2_InPort1"/>
           <port xsi:type="esdl:InPort" id="ElectricityNetworkIH_InPort2" connectedTo="PVPanel8_OutPort1"/>
           <port xsi:type="esdl:InPort" id="ElectricityNetworkIH_InPort3" connectedTo="EConnection6_OutPort1"/>
-          <port xsi:type="esdl:OutPort" id="ElectricityNetworkIH_OutPort4" connectedTo="GasHeater9_InPort3"/>
+          <port xsi:type="esdl:OutPort" id="ElectricityNetworkIH_OutPort4"/>
         </asset>
         <asset xsi:type="esdl:EConnection" id="EConnection6" name="Electricity Connection">
           <port xsi:type="esdl:OutPort" id="EConnection6_OutPort1" connectedTo="ElectricityNetworkIH_InPort3"/>
@@ -143,13 +143,6 @@
         <asset xsi:type="esdl:PVPanel" id="PVPanel8" name="Rooftop PV">
           <port xsi:type="esdl:OutPort" id="PVPanel8_OutPort1" connectedTo="ElectricityNetworkIH_InPort2"/>
         </asset>
-        <asset xsi:type="esdl:GasHeater" id="GasHeater9" name="HR ketel">
-          <port xsi:type="esdl:OutPort" id="GasHeater9_OutPort1" carrier="cheat" connectedTo="HeatNetwork11_InPort2"/>
-          <port xsi:type="esdl:InPort" id="GasHeater9_InPort2" connectedTo="GConnection4_OutPort1">
-            <profile xsi:type="esdl:SingleValue" name="Metervraag gas" profileType="ENERGY_IN_PJ" value="307.0"/>
-          </port>
-          <port xsi:type="esdl:InPort" id="GasHeater9_InPort3" connectedTo="ElectricityNetworkIH_OutPort4"/>
-        </asset>
         <asset xsi:type="esdl:SinkConsumer" id="SinkConsumer10" name="Distr. verlies warmte inpandig (HR)">
           <port xsi:type="esdl:InPort" id="SinkConsumer10_InPort1" connectedTo="HeatNetwork11_OutPort3">
             <profile xsi:type="esdl:SingleValue" name="Leidingverlies warmte inpandig (HR)" profileType="ENERGY_IN_PJ" value="16.7"/>
@@ -157,7 +150,7 @@
         </asset>
         <asset xsi:type="esdl:HeatNetwork" id="HeatNetwork11" name="Inpandig Distributienetwerk Warmte">
           <port xsi:type="esdl:OutPort" id="HeatNetwork11_OutPort1" connectedTo="HeatingDemand1_InPort2"/>
-          <port xsi:type="esdl:InPort" id="HeatNetwork11_InPort2" connectedTo="GasHeater9_OutPort1"/>
+          <port xsi:type="esdl:InPort" id="HeatNetwork11_InPort2"/>
           <port xsi:type="esdl:OutPort" id="HeatNetwork11_OutPort3" connectedTo="SinkConsumer10_InPort1"/>
           <port xsi:type="esdl:InPort" id="HeatNetwork11_InPort4" connectedTo="HConnection7_OutPort1"/>
           <port xsi:type="esdl:OutPort" id="HeatNetwork11_OutPort5" connectedTo="SinkConsumer12_InPort1"/>
