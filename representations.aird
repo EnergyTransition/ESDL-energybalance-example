@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:description="http://www.eclipse.org/sirius/description/1.1.0" xmlns:description_1="http://www.eclipse.org/sirius/diagram/description/1.1.0" xmlns:diagram="http://www.eclipse.org/sirius/diagram/1.1.0" xmlns:esdl="http://www.tno.nl/esdl/1809" xmlns:filter="http://www.eclipse.org/sirius/diagram/description/filter/1.1.0" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmlns:style="http://www.eclipse.org/sirius/diagram/description/style/1.1.0" xmlns:viewpoint="http://www.eclipse.org/sirius/1.1.0" xsi:schemaLocation="http://www.eclipse.org/sirius/description/1.1.0 http://www.eclipse.org/sirius/1.1.0#//description http://www.eclipse.org/sirius/diagram/description/1.1.0 http://www.eclipse.org/sirius/diagram/1.1.0#//description http://www.eclipse.org/sirius/diagram/description/filter/1.1.0 http://www.eclipse.org/sirius/diagram/1.1.0#//description/filter http://www.eclipse.org/sirius/diagram/description/style/1.1.0 http://www.eclipse.org/sirius/diagram/1.1.0#//description/style">
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:description="http://www.eclipse.org/sirius/description/1.1.0" xmlns:description_1="http://www.eclipse.org/sirius/diagram/description/1.1.0" xmlns:diagram="http://www.eclipse.org/sirius/diagram/1.1.0" xmlns:esdl="http://www.tno.nl/esdl/180901" xmlns:filter="http://www.eclipse.org/sirius/diagram/description/filter/1.1.0" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmlns:style="http://www.eclipse.org/sirius/diagram/description/style/1.1.0" xmlns:viewpoint="http://www.eclipse.org/sirius/1.1.0" xsi:schemaLocation="http://www.eclipse.org/sirius/description/1.1.0 http://www.eclipse.org/sirius/1.1.0#//description http://www.eclipse.org/sirius/diagram/description/1.1.0 http://www.eclipse.org/sirius/diagram/1.1.0#//description http://www.eclipse.org/sirius/diagram/description/filter/1.1.0 http://www.eclipse.org/sirius/diagram/1.1.0#//description/filter http://www.eclipse.org/sirius/diagram/description/style/1.1.0 http://www.eclipse.org/sirius/diagram/1.1.0#//description/style">
   <viewpoint:DAnalysis xmi:id="_YsnLgLyzEeipiuWfn5Idig" selectedViews="_jSgMILyzEeipiuWfn5Idig" version="13.0.0.201804031646">
     <semanticResources>EnergyBalance.esdl</semanticResources>
     <ownedViews xmi:type="viewpoint:DView" xmi:id="_jSgMILyzEeipiuWfn5Idig">
@@ -1437,7 +1437,7 @@
             <styles xmi:type="notation:FilteringStyle" xmi:id="_z_DO4rzoEei0kNUhFE-bGA"/>
           </children>
           <styles xmi:type="notation:ShapeStyle" xmi:id="_z-76IbzoEei0kNUhFE-bGA" fontName="Segoe UI" fontHeight="12" bold="true"/>
-          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_z-76IrzoEei0kNUhFE-bGA" x="1308" y="12"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_z-76IrzoEei0kNUhFE-bGA" x="1332" y="24"/>
         </children>
         <styles xmi:type="notation:DiagramStyle" xmi:id="_kLPK8ryzEeipiuWfn5Idig"/>
         <edges xmi:type="notation:Edge" xmi:id="_nSQWgLzEEeipiuWfn5Idig" type="4001" element="_nPvOALzEEeipiuWfn5Idig" source="_teNX6rzDEeipiuWfn5Idig" target="_mliacLzEEeipiuWfn5Idig">
@@ -3724,6 +3724,9 @@
     <ownedDiagramElements xmi:type="diagram:DNodeContainer" xmi:id="_z5wfMLzoEei0kNUhFE-bGA" name="Energy System Information" childrenPresentation="VerticalStack">
       <target xmi:type="esdl:EnergySystemInformation" href="EnergyBalance.esdl#//@energySystemInformation"/>
       <semanticElements xmi:type="esdl:EnergySystemInformation" href="EnergyBalance.esdl#//@energySystemInformation"/>
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
       <ownedStyle xmi:type="diagram:FlatContainerStyle" xmi:id="_z5xGQLzoEei0kNUhFE-bGA" labelSize="12" showIcon="false" labelAlignment="LEFT" borderSize="1" borderSizeComputationExpression="1">
         <labelFormat>bold</labelFormat>
         <description xmi:type="style:FlatContainerStyleDescription" href="platform:/plugin/esdl.design/description/esdl.odesign#//@ownedViewpoints[name='ESDL%20Viewpoint']/@ownedRepresentations[name='ESDL%20Diagram']/@defaultLayer/@containerMappings[name='EnergySystemInformation']/@style"/>
