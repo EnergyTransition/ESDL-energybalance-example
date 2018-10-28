@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<esdl:EnergySystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:esdl="http://www.tno.nl/esdl/1809">
+<esdl:EnergySystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:esdl="http://www.tno.nl/esdl">
   <instance id="Instance1" name="Energy Balance Example">
     <area id="Area1" name="Top level Energy System ">
       <asset xsi:type="esdl:GasNetwork" id="GasNetwork1" name="Gas Network">
