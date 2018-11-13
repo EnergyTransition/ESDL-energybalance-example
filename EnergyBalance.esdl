@@ -21,7 +21,7 @@
         <port xsi:type="esdl:InPort" id="ElectricityNetwork5_InPort3" connectedTo="CHP12_OutPort3"/>
         <port xsi:type="esdl:OutPort" id="ElectricityNetwork5_OutPort6" connectedTo="HeatPump11_InPort3"/>
         <port xsi:type="esdl:InPort" id="ElectricityNetwork5_InPort7" connectedTo="PowerPlant15_OutPort1 PowerPlant13_OutPort1 PowerPlant17_OutPort1 PVParc7_OutPort1 WindParc6_OutPort1 PVPanel8_OutPort1"/>
-        <port xsi:type="esdl:OutPort" id="ElectricityNetwork5_OutPort9" connectedTo="ElectricityDemand2_InPort1 ElectricityDemand33_InPort1 ElectricityDemand34_InPort1 ElectricityDemand24_InPort1 ElectricityDemand35_InPort1"/>
+        <port xsi:type="esdl:OutPort" id="ElectricityNetwork5_OutPort9" connectedTo="ElectricityDemand2_InPort1 ElectricityDemand33_InPort1 ElectricityDemand34_InPort1 ElectricityDemand24_InPort1 ElectricityDemand35_InPort1 ElectricityDemand37_InPort1"/>
         <port xsi:type="esdl:OutPort" id="ElectricityNetwork5_OutPort6"/>
       </asset>
       <asset xsi:type="esdl:WindParc" id="WindParc6" name="Wind Parc">
@@ -93,12 +93,12 @@
           <profile xsi:type="esdl:SingleValue" name="Wijkwarmte Utiliteit" profileType="ENERGY_IN_PJ" value="4.4"/>
         </port>
       </asset>
-      <asset xsi:type="esdl:HeatingDemand" id="HeatingDemand21" name="Heating Demand GlasTuinBouw">
+      <asset xsi:type="esdl:HeatingDemand" id="HeatingDemand21" name="Warmtevraag GlasTuinBouw">
         <port xsi:type="esdl:InPort" id="HeatingDemand21_InPort1" connectedTo="HeatNetwork8_OutPort8">
           <profile xsi:type="esdl:SingleValue" name="Wijkwarmte GTB" profileType="ENERGY_IN_PJ" value="5.5"/>
         </port>
       </asset>
-      <asset xsi:type="esdl:HeatingDemand" id="HeatingDemand22" name="Heating Demand industry">
+      <asset xsi:type="esdl:HeatingDemand" id="HeatingDemand22" name="Warmtevraag Industrie">
         <port xsi:type="esdl:InPort" id="HeatingDemand22_InPort1">
           <profile xsi:type="esdl:SingleValue" name="Warmtevraag Industrie (verkochte warmte)" profileType="ENERGY_IN_PJ" value="96.48642000000002"/>
         </port>
@@ -149,6 +149,9 @@
       </asset>
       <asset xsi:type="esdl:SinkConsumer" id="SinkConsumer36" name="Verliezen Elektriciteitsnetwerk">
         <port xsi:type="esdl:InPort" id="SinkConsumer36_InPort1"/>
+      </asset>
+      <asset xsi:type="esdl:ElectricityDemand" id="ElectricityDemand37" name="Elektriciteisvraag Industrie">
+        <port xsi:type="esdl:InPort" id="ElectricityDemand37_InPort1" connectedTo="ElectricityNetwork5_OutPort9"/>
       </asset>
     </area>
   </instance>
