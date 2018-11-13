@@ -22,7 +22,7 @@
         <port xsi:type="esdl:OutPort" id="ElectricityNetwork5_OutPort6" connectedTo="HeatPump11_InPort3"/>
         <port xsi:type="esdl:InPort" id="ElectricityNetwork5_InPort7" connectedTo="PowerPlant15_OutPort1 PowerPlant13_OutPort1 PowerPlant17_OutPort1 PVParc7_OutPort1 WindParc6_OutPort1 PVPanel8_OutPort1"/>
         <port xsi:type="esdl:OutPort" id="ElectricityNetwork5_OutPort9" connectedTo="ElectricityDemand2_InPort1 ElectricityDemand33_InPort1 ElectricityDemand34_InPort1 ElectricityDemand24_InPort1 ElectricityDemand35_InPort1 ElectricityDemand37_InPort1"/>
-        <port xsi:type="esdl:OutPort" id="ElectricityNetwork5_OutPort6"/>
+        <port xsi:type="esdl:OutPort" id="ElectricityNetwork5_OutPort1" connectedTo="SinkConsumer36_InPort1"/>
       </asset>
       <asset xsi:type="esdl:WindParc" id="WindParc6" name="Wind Parc">
         <port xsi:type="esdl:OutPort" id="WindParc6_OutPort1" connectedTo="ElectricityNetwork5_InPort7"/>
@@ -148,7 +148,7 @@
         <port xsi:type="esdl:InPort" id="GasDemand38_InPort1" connectedTo="GasNetwork1_OutPort8"/>
       </asset>
       <asset xsi:type="esdl:SinkConsumer" id="SinkConsumer36" name="Verliezen Elektriciteitsnetwerk">
-        <port xsi:type="esdl:InPort" id="SinkConsumer36_InPort1"/>
+        <port xsi:type="esdl:InPort" id="SinkConsumer36_InPort1" connectedTo="ElectricityNetwork5_OutPort1"/>
       </asset>
       <asset xsi:type="esdl:ElectricityDemand" id="ElectricityDemand37" name="Elektriciteisvraag Industrie">
         <port xsi:type="esdl:InPort" id="ElectricityDemand37_InPort1" connectedTo="ElectricityNetwork5_OutPort9"/>
