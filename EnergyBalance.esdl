@@ -37,13 +37,13 @@
         <port xsi:type="esdl:OutPort" id="HeatNetwork8_OutPort7" connectedTo="Losses19_InPort1"/>
         <port xsi:type="esdl:OutPort" id="HeatNetwork8_OutPort8" connectedTo="HeatingDemand1_InPort1 HeatingDemand20_InPort1 HeatingDemand21_InPort1"/>
       </asset>
-      <asset xsi:type="esdl:GeothermalSource" id="GeothermalSource9" name="Geothermal Source">
+      <asset xsi:type="esdl:GeothermalSource" id="GeothermalSource9" name="Geothermal Heater">
         <port xsi:type="esdl:OutPort" id="GeothermalSource9_OutPort1" connectedTo="HeatNetwork8_InPort2"/>
       </asset>
-      <asset xsi:type="esdl:ResidualHeatSource" id="ResidualHeatSource10" name="Residual Heat Source">
+      <asset xsi:type="esdl:ResidualHeatSource" id="ResidualHeatSource10" name="Residual Heat">
         <port xsi:type="esdl:OutPort" id="ResidualHeatSource10_OutPort1" connectedTo="HeatPump11_InPort2"/>
         <port xsi:type="esdl:OutPort" id="ResidualHeatSource10_OutPort2" connectedTo="HeatNetwork8_InPort2 HeatingDemand22_InPort1">
-          <profile xsi:type="esdl:SingleValue" name="Opwekking Wijkwarmte" profileType="ENERGY_IN_PJ" value="19.4"/>
+          <profile xsi:type="esdl:SingleValue" name="Residual Heat" profileType="ENERGY_IN_PJ" value="19.4"/>
         </port>
       </asset>
       <asset xsi:type="esdl:HeatPump" id="HeatPump11" name="Heat Pump">
@@ -61,24 +61,24 @@
         <port xsi:type="esdl:OutPort" id="PowerPlant13_OutPort1" connectedTo="ElectricityNetwork5_InPort7"/>
         <port xsi:type="esdl:InPort" id="PowerPlant13_InPort2" connectedTo="GenericProducer14_OutPort1"/>
       </asset>
-      <asset xsi:type="esdl:GenericProducer" id="GenericProducer14" name="Coal import">
+      <asset xsi:type="esdl:GenericProducer" id="GenericProducer14" name="Coal Import">
         <port xsi:type="esdl:OutPort" id="GenericProducer14_OutPort1" connectedTo="PowerPlant13_InPort2"/>
       </asset>
       <asset xsi:type="esdl:PowerPlant" id="PowerPlant15" name="Uranium powered Power Plant">
         <port xsi:type="esdl:OutPort" id="PowerPlant15_OutPort1" connectedTo="ElectricityNetwork5_InPort7"/>
         <port xsi:type="esdl:InPort" id="PowerPlant15_InPort2" connectedTo="GenericProducer16_OutPort1"/>
       </asset>
-      <asset xsi:type="esdl:GenericProducer" id="GenericProducer16" name="Uranium import">
+      <asset xsi:type="esdl:GenericProducer" id="GenericProducer16" name="Uranium Import">
         <port xsi:type="esdl:OutPort" id="GenericProducer16_OutPort1" connectedTo="PowerPlant15_InPort2"/>
       </asset>
       <asset xsi:type="esdl:PowerPlant" id="PowerPlant17" name="Gas powered Power Plant">
         <port xsi:type="esdl:OutPort" id="PowerPlant17_OutPort1" connectedTo="ElectricityNetwork5_InPort7"/>
         <port xsi:type="esdl:InPort" id="PowerPlant17_InPort2" connectedTo="GasNetwork1_OutPort7"/>
       </asset>
-      <asset xsi:type="esdl:GasHeater" id="GasHeater18" name="Bijstookketel" efficiency="0.925">
+      <asset xsi:type="esdl:GasHeater" id="GasHeater18" name="Backup Heater Gas" efficiency="0.925">
         <port xsi:type="esdl:OutPort" id="GasHeater18_OutPort1" connectedTo="HeatNetwork8_InPort2"/>
         <port xsi:type="esdl:InPort" id="GasHeater18_InPort2" connectedTo="GasNetwork1_OutPort7">
-          <profile xsi:type="esdl:SingleValue" name="Bijstook Wijkwarmte" profileType="ENERGY_IN_PJ" value="5.3"/>
+          <profile xsi:type="esdl:SingleValue" name="Backup Heater Gas" profileType="ENERGY_IN_PJ" value="5.3"/>
         </port>
       </asset>
       <asset xsi:type="esdl:Losses" id="Losses19" name="Distributieverlies Warmte">
@@ -86,24 +86,24 @@
           <profile xsi:type="esdl:SingleValue" name="Omgevingsverlies WijkWarmte" profileType="ENERGY_IN_PJ" value="4.8"/>
         </port>
       </asset>
-      <asset xsi:type="esdl:HeatingDemand" id="HeatingDemand1" name="Warmtevraag Woning">
+      <asset xsi:type="esdl:HeatingDemand" id="HeatingDemand1" name="Heat Demand Residences">
         <port xsi:type="esdl:InPort" id="HeatingDemand1_InPort1" connectedTo="HeatNetwork8_OutPort8">
-          <profile xsi:type="esdl:SingleValue" name="Warmtevraag" profileType="ENERGY_IN_PJ" value="9.6"/>
+          <profile xsi:type="esdl:SingleValue" name="Heat Demand Residences" profileType="ENERGY_IN_PJ" value="9.6"/>
         </port>
       </asset>
-      <asset xsi:type="esdl:HeatingDemand" id="HeatingDemand20" name="Warmtevraag Utiliteit">
+      <asset xsi:type="esdl:HeatingDemand" id="HeatingDemand20" name="Heat Demand Utilities">
         <port xsi:type="esdl:InPort" id="HeatingDemand20_InPort1" connectedTo="HeatNetwork8_OutPort8">
-          <profile xsi:type="esdl:SingleValue" name="Wijkwarmte Utiliteit" profileType="ENERGY_IN_PJ" value="4.4"/>
+          <profile xsi:type="esdl:SingleValue" name="Heat Demand Utilities" profileType="ENERGY_IN_PJ" value="4.4"/>
         </port>
       </asset>
-      <asset xsi:type="esdl:HeatingDemand" id="HeatingDemand21" name="Warmtevraag GlasTuinBouw">
+      <asset xsi:type="esdl:HeatingDemand" id="HeatingDemand21" name="Heat Demand Agriculture">
         <port xsi:type="esdl:InPort" id="HeatingDemand21_InPort1" connectedTo="HeatNetwork8_OutPort8">
-          <profile xsi:type="esdl:SingleValue" name="Wijkwarmte GTB" profileType="ENERGY_IN_PJ" value="5.5"/>
+          <profile xsi:type="esdl:SingleValue" name="Heat Demand Agriculture " profileType="ENERGY_IN_PJ" value="5.5"/>
         </port>
       </asset>
-      <asset xsi:type="esdl:HeatingDemand" id="HeatingDemand22" name="Warmtevraag Industrie">
+      <asset xsi:type="esdl:HeatingDemand" id="HeatingDemand22" name="Sold Heat Demand Industry">
         <port xsi:type="esdl:InPort" id="HeatingDemand22_InPort1" connectedTo="ResidualHeatSource10_OutPort2 CHP12_OutPort1">
-          <profile xsi:type="esdl:SingleValue" name="Warmtevraag Industrie (verkochte warmte)" profileType="ENERGY_IN_PJ" value="96.48642000000002"/>
+          <profile xsi:type="esdl:SingleValue" name="Sold Heat Demand Industry" profileType="ENERGY_IN_PJ" value="96.48642000000002"/>
         </port>
       </asset>
       <asset xsi:type="esdl:GasDemand" id="GasDemand23" name="Gasvraag Industrie">
@@ -129,9 +129,9 @@
       <asset xsi:type="esdl:PVPanel" id="PVPanel8" name="Rooftop PV">
         <port xsi:type="esdl:OutPort" id="PVPanel8_OutPort1" connectedTo="ElectricityNetwork5_InPort7"/>
       </asset>
-      <asset xsi:type="esdl:HeatingDemand" id="HeatingDemand32" name="Warmtevraag Overig">
+      <asset xsi:type="esdl:HeatingDemand" id="HeatingDemand32" name="Heat Demand Other">
         <port xsi:type="esdl:InPort" id="HeatingDemand32_InPort1">
-          <profile xsi:type="esdl:SingleValue" name="Warmtevraag Overig"/>
+          <profile xsi:type="esdl:SingleValue" name="Heat Demand Other"/>
         </port>
       </asset>
       <asset xsi:type="esdl:ElectricityDemand" id="ElectricityDemand33" name="Elektriciteitsvraag Utiliteit">
