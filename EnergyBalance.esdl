@@ -146,13 +146,19 @@
         </port>
       </asset>
       <asset xsi:type="esdl:GasDemand" id="GasDemand36" name="Gasvraag Utiliteit">
-        <port xsi:type="esdl:InPort" id="GasDemand36_InPort1" connectedTo="GasNetwork1_OutPort8"/>
+        <port xsi:type="esdl:InPort" id="GasDemand36_InPort1" connectedTo="GasNetwork1_OutPort8">
+          <profile xsi:type="esdl:SingleValue" name="Gasvraag Utiliteit"/>
+        </port>
       </asset>
       <asset xsi:type="esdl:GasDemand" id="GasDemand37" name="Gasvraag Glastuinbouw">
-        <port xsi:type="esdl:InPort" id="GasDemand37_InPort1" connectedTo="GasNetwork1_OutPort8"/>
+        <port xsi:type="esdl:InPort" id="GasDemand37_InPort1" connectedTo="GasNetwork1_OutPort8">
+          <profile xsi:type="esdl:SingleValue" name="Gasvraag Glastuinbouw"/>
+        </port>
       </asset>
       <asset xsi:type="esdl:GasDemand" id="GasDemand38" name="Gasvraag Overig">
-        <port xsi:type="esdl:InPort" id="GasDemand38_InPort1" connectedTo="GasNetwork1_OutPort8"/>
+        <port xsi:type="esdl:InPort" id="GasDemand38_InPort1" connectedTo="GasNetwork1_OutPort8">
+          <profile xsi:type="esdl:SingleValue" name="Gasvraag Overig"/>
+        </port>
       </asset>
       <asset xsi:type="esdl:SinkConsumer" id="SinkConsumer36" name="Verliezen Elektriciteitsnetwerk">
         <port xsi:type="esdl:InPort" id="SinkConsumer36_InPort1" connectedTo="ElectricityNetwork5_OutPort1"/>
