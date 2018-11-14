@@ -40,7 +40,7 @@
       </asset>
       <asset xsi:type="esdl:ResidualHeatSource" id="ResidualHeatSource10" name="Residual Heat Source">
         <port xsi:type="esdl:OutPort" id="ResidualHeatSource10_OutPort1" connectedTo="HeatPump11_InPort2"/>
-        <port xsi:type="esdl:OutPort" id="ResidualHeatSource10_OutPort2" connectedTo="HeatNetwork8_InPort2">
+        <port xsi:type="esdl:OutPort" id="ResidualHeatSource10_OutPort2" connectedTo="HeatNetwork8_InPort2 HeatingDemand22_InPort1">
           <profile xsi:type="esdl:SingleValue" name="Opwekking Wijkwarmte" profileType="ENERGY_IN_PJ" value="19.4"/>
         </port>
       </asset>
@@ -50,8 +50,8 @@
         <port xsi:type="esdl:InPort" id="HeatPump11_InPort3" connectedTo="ElectricityNetwork5_OutPort6"/>
         <port xsi:type="esdl:InPort" id="HeatPump11_InPort4" connectedTo="GenericProducer38_OutPort1"/>
       </asset>
-      <asset xsi:type="esdl:CHP" id="CHP12" name="CHP">
-        <port xsi:type="esdl:OutPort" id="CHP12_OutPort1" connectedTo="HeatNetwork8_InPort2"/>
+      <asset xsi:type="esdl:CHP" id="CHP12" name="Gas CHP">
+        <port xsi:type="esdl:OutPort" id="CHP12_OutPort1" connectedTo="HeatNetwork8_InPort2 HeatingDemand22_InPort1"/>
         <port xsi:type="esdl:InPort" id="CHP12_InPort2" connectedTo="GasNetwork1_OutPort7"/>
         <port xsi:type="esdl:OutPort" id="CHP12_OutPort3" connectedTo="ElectricityNetwork5_InPort3"/>
       </asset>
@@ -100,7 +100,7 @@
         </port>
       </asset>
       <asset xsi:type="esdl:HeatingDemand" id="HeatingDemand22" name="Warmtevraag Industrie">
-        <port xsi:type="esdl:InPort" id="HeatingDemand22_InPort1">
+        <port xsi:type="esdl:InPort" id="HeatingDemand22_InPort1" connectedTo="ResidualHeatSource10_OutPort2 CHP12_OutPort1">
           <profile xsi:type="esdl:SingleValue" name="Warmtevraag Industrie (verkochte warmte)" profileType="ENERGY_IN_PJ" value="96.48642000000002"/>
         </port>
       </asset>
@@ -128,7 +128,9 @@
         <port xsi:type="esdl:OutPort" id="PVPanel8_OutPort1" connectedTo="ElectricityNetwork5_InPort7"/>
       </asset>
       <asset xsi:type="esdl:HeatingDemand" id="HeatingDemand32" name="Warmtevraag Overig">
-        <port xsi:type="esdl:InPort" id="HeatingDemand32_InPort1"/>
+        <port xsi:type="esdl:InPort" id="HeatingDemand32_InPort1">
+          <profile xsi:type="esdl:SingleValue" name="Warmtevraag Overig"/>
+        </port>
       </asset>
       <asset xsi:type="esdl:ElectricityDemand" id="ElectricityDemand33" name="Elektriciteitsvraag Utiliteit">
         <port xsi:type="esdl:InPort" id="ElectricityDemand33_InPort1" connectedTo="ElectricityNetwork5_OutPort9">
