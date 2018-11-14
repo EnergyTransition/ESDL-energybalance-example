@@ -48,6 +48,7 @@
         <port xsi:type="esdl:OutPort" id="HeatPump11_OutPort1" connectedTo="HeatNetwork8_InPort2"/>
         <port xsi:type="esdl:InPort" id="HeatPump11_InPort2" connectedTo="ResidualHeatSource10_OutPort1"/>
         <port xsi:type="esdl:InPort" id="HeatPump11_InPort3" connectedTo="ElectricityNetwork5_OutPort6"/>
+        <port xsi:type="esdl:InPort" id="HeatPump11_InPort4" connectedTo="GenericProducer14_OutPort1"/>
       </asset>
       <asset xsi:type="esdl:CHP" id="CHP12" name="CHP">
         <port xsi:type="esdl:OutPort" id="CHP12_OutPort1" connectedTo="HeatNetwork8_InPort2"/>
@@ -152,6 +153,9 @@
       </asset>
       <asset xsi:type="esdl:ElectricityDemand" id="ElectricityDemand37" name="Elektriciteisvraag Industrie">
         <port xsi:type="esdl:InPort" id="ElectricityDemand37_InPort1" connectedTo="ElectricityNetwork5_OutPort9"/>
+      </asset>
+      <asset xsi:type="esdl:GenericProducer" id="GenericProducer14" name="Ambient heat">
+        <port xsi:type="esdl:OutPort" id="GenericProducer14_OutPort1" connectedTo="HeatPump11_InPort4"/>
       </asset>
     </area>
   </instance>
