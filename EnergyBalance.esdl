@@ -20,7 +20,7 @@
       <asset xsi:type="esdl:ElectricityNetwork" id="ElectricityNetwork5" name="Electricity Network">
         <port xsi:type="esdl:InPort" id="ElectricityNetwork5_InPort3" connectedTo="CHP12_OutPort3"/>
         <port xsi:type="esdl:OutPort" id="ElectricityNetwork5_OutPort6" connectedTo="HeatPump11_InPort3"/>
-        <port xsi:type="esdl:InPort" id="ElectricityNetwork5_InPort7" connectedTo="PowerPlant15_OutPort1 PowerPlant13_OutPort1 PowerPlant17_OutPort1 PVParc7_OutPort1 WindParc6_OutPort1 PVPanel8_OutPort1"/>
+        <port xsi:type="esdl:InPort" id="ElectricityNetwork5_InPort7" connectedTo="PowerPlant15_OutPort1 PowerPlant13_OutPort1 PowerPlant17_OutPort1 PVParc7_OutPort1 WindParc6_OutPort1 PVPanel8_OutPort1 GenericProducer39_OutPort1"/>
         <port xsi:type="esdl:OutPort" id="ElectricityNetwork5_OutPort9" connectedTo="ElectricityDemand2_InPort1 ElectricityDemand33_InPort1 ElectricityDemand34_InPort1 ElectricityDemand24_InPort1 ElectricityDemand35_InPort1 ElectricityDemand37_InPort1"/>
         <port xsi:type="esdl:OutPort" id="ElectricityNetwork5_OutPort1" connectedTo="SinkConsumer36_InPort1"/>
       </asset>
@@ -170,6 +170,9 @@
       </asset>
       <asset xsi:type="esdl:GenericProducer" id="GenericProducer38" name="Ambient Heat">
         <port xsi:type="esdl:OutPort" id="GenericProducer38_OutPort1" connectedTo="HeatPump11_InPort4"/>
+      </asset>
+      <asset xsi:type="esdl:GenericProducer" id="GenericProducer39" name="Electricity Import">
+        <port xsi:type="esdl:OutPort" id="GenericProducer39_OutPort1" connectedTo="ElectricityNetwork5_InPort7"/>
       </asset>
     </area>
   </instance>
