@@ -107,9 +107,9 @@
           <profile xsi:type="esdl:SingleValue" name="Sold Heat Demand Industry" profileType="ENERGY_IN_PJ" value="96.48642000000002"/>
         </port>
       </asset>
-      <asset xsi:type="esdl:GasDemand" id="GasDemand23" name="Gasvraag Industrie">
+      <asset xsi:type="esdl:GasDemand" id="GasDemand23" name="Gas Demand Industry">
         <port xsi:type="esdl:InPort" id="GasDemand23_InPort1" connectedTo="GasNetwork1_OutPort8">
-          <profile xsi:type="esdl:SingleValue" name="Gasvraag Industrie" value="245.5056309154131"/>
+          <profile xsi:type="esdl:SingleValue" name="Gas Demand Industry" value="245.5056309154131"/>
         </port>
       </asset>
       <asset xsi:type="esdl:ElectricityDemand" id="ElectricityDemand24" name="Electricity Demand Mobility">
@@ -122,9 +122,9 @@
           <profile xsi:type="esdl:SingleValue" name="Electricity Demand Residences" profileType="ENERGY_IN_PJ" value="79.3"/>
         </port>
       </asset>
-      <asset xsi:type="esdl:GasDemand" id="GasDemand3" name="Gasvraag Woning">
+      <asset xsi:type="esdl:GasDemand" id="GasDemand3" name="Gas Demand Residences">
         <port xsi:type="esdl:InPort" id="GasDemand3_InPort1" connectedTo="GasNetwork1_OutPort8">
-          <profile xsi:type="esdl:SingleValue" name="Gasvraag Woning" value="307.0"/>
+          <profile xsi:type="esdl:SingleValue" name="Gas Demand Residences" value="307.0"/>
         </port>
       </asset>
       <asset xsi:type="esdl:PVPanel" id="PVPanel8" name="Rooftop PV">
@@ -140,7 +140,7 @@
           <profile xsi:type="esdl:SingleValue" name="Electricity Demand Utilities" id=""/>
         </port>
       </asset>
-      <asset xsi:type="esdl:ElectricityDemand" id="ElectricityDemand34" name="Elektriciteitsvraag Glastuinbouw">
+      <asset xsi:type="esdl:ElectricityDemand" id="ElectricityDemand34" name="Electricity Demand Agriculture">
         <port xsi:type="esdl:InPort" id="ElectricityDemand34_InPort1" connectedTo="ElectricityNetwork5_OutPort9">
           <profile xsi:type="esdl:SingleValue" name="Electricity Demand Agriculture"/>
         </port>
@@ -150,19 +150,19 @@
           <profile xsi:type="esdl:SingleValue" name="Electricity Demand Other"/>
         </port>
       </asset>
-      <asset xsi:type="esdl:GasDemand" id="GasDemand36" name="Gasvraag Utiliteit">
+      <asset xsi:type="esdl:GasDemand" id="GasDemand36" name="Gas Demand Utilities">
         <port xsi:type="esdl:InPort" id="GasDemand36_InPort1" connectedTo="GasNetwork1_OutPort8">
-          <profile xsi:type="esdl:SingleValue" name="Gasvraag Utiliteit"/>
+          <profile xsi:type="esdl:SingleValue" name="Gas Demand Utilities"/>
         </port>
       </asset>
-      <asset xsi:type="esdl:GasDemand" id="GasDemand37" name="Gasvraag Glastuinbouw">
+      <asset xsi:type="esdl:GasDemand" id="GasDemand37" name="Gas Demand Agriculture">
         <port xsi:type="esdl:InPort" id="GasDemand37_InPort1" connectedTo="GasNetwork1_OutPort8">
-          <profile xsi:type="esdl:SingleValue" name="Gasvraag Glastuinbouw"/>
+          <profile xsi:type="esdl:SingleValue" name="Gas Demand Agriculture"/>
         </port>
       </asset>
-      <asset xsi:type="esdl:GasDemand" id="GasDemand38" name="Gasvraag Overig">
+      <asset xsi:type="esdl:GasDemand" id="GasDemand38" name="Gas Demand Other">
         <port xsi:type="esdl:InPort" id="GasDemand38_InPort1" connectedTo="GasNetwork1_OutPort8">
-          <profile xsi:type="esdl:SingleValue" name="Gasvraag Overig"/>
+          <profile xsi:type="esdl:SingleValue" name="Gas Demand Other"/>
         </port>
       </asset>
       <asset xsi:type="esdl:SinkConsumer" id="SinkConsumer36" name="Losses Electricity Network">
