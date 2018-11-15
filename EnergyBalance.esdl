@@ -53,9 +53,10 @@
         <port xsi:type="esdl:InPort" id="HeatPump11_InPort4" connectedTo="GenericProducer38_OutPort1"/>
       </asset>
       <asset xsi:type="esdl:CHP" id="CHP12" name="Gas CHP">
-        <port xsi:type="esdl:OutPort" id="CHP12_OutPort1" connectedTo="HeatNetwork8_InPort2 HeatingDemand22_InPort1"/>
+        <port xsi:type="esdl:OutPort" id="CHP12_OutPort1" connectedTo="HeatNetwork8_InPort2"/>
         <port xsi:type="esdl:InPort" id="CHP12_InPort2" connectedTo="GasNetwork1_OutPort7"/>
         <port xsi:type="esdl:OutPort" id="CHP12_OutPort3" connectedTo="ElectricityNetwork5_InPort3"/>
+        <port xsi:type="esdl:OutPort" id="CHP12_OutPort4" connectedTo="HeatingDemand22_InPort1"/>
       </asset>
       <asset xsi:type="esdl:PowerPlant" id="PowerPlant13" name="Coal powered Power Plant">
         <port xsi:type="esdl:OutPort" id="PowerPlant13_OutPort1" connectedTo="ElectricityNetwork5_InPort7"/>
@@ -102,7 +103,7 @@
         </port>
       </asset>
       <asset xsi:type="esdl:HeatingDemand" id="HeatingDemand22" name="Sold Heat Demand Industry">
-        <port xsi:type="esdl:InPort" id="HeatingDemand22_InPort1" connectedTo="ResidualHeatSource10_OutPort2 CHP12_OutPort1">
+        <port xsi:type="esdl:InPort" id="HeatingDemand22_InPort1" connectedTo="ResidualHeatSource10_OutPort2 CHP12_OutPort4">
           <profile xsi:type="esdl:SingleValue" name="Sold Heat Demand Industry" profileType="ENERGY_IN_PJ" value="96.48642000000002"/>
         </port>
       </asset>
