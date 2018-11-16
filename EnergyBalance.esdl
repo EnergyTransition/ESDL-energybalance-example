@@ -8,7 +8,7 @@
         </port>
         <port xsi:type="esdl:OutPort" id="GasNetwork1_OutPort4" connectedTo="Losses4_InPort1"/>
         <port xsi:type="esdl:OutPort" id="GasNetwork1_OutPort7" connectedTo="GasHeater18_InPort2 PowerPlant17_InPort2 CHP12_InPort2"/>
-        <port xsi:type="esdl:OutPort" id="GasNetwork1_OutPort8" connectedTo="GasDemand3_InPort1 GasDemand36_InPort1 GasDemand37_InPort1 GasDemand23_InPort1 GasDemand38_InPort1"/>
+        <port xsi:type="esdl:OutPort" id="GasNetwork1_OutPort8" connectedTo="GasDemand3_InPort1 GasDemand36_InPort1 GasDemand37_InPort1 GasDemand23_InPort1 GasDemand38_InPort1 GasDemand41_InPort1"/>
       </asset>
       <asset xsi:type="esdl:GenericProducer" id="GenericProducer2" name="Gas extraction">
         <port xsi:type="esdl:OutPort" id="GenericProducer2_OutPort1" connectedTo="GasNetwork1_InPort2"/>
@@ -99,7 +99,7 @@
       </asset>
       <asset xsi:type="esdl:HeatingDemand" id="HeatingDemand21" name="Heat Demand Agriculture">
         <port xsi:type="esdl:InPort" id="HeatingDemand21_InPort1" connectedTo="HeatNetwork8_OutPort8">
-          <profile xsi:type="esdl:SingleValue" name="Heat Demand Agriculture " profileType="ENERGY_IN_PJ" value="5.5"/>
+          <profile xsi:type="esdl:SingleValue" name="Heat Demand Agriculture" profileType="ENERGY_IN_PJ" value="5.5"/>
         </port>
       </asset>
       <asset xsi:type="esdl:HeatingDemand" id="HeatingDemand22" name="Sold Heat Demand Industry">
@@ -183,6 +183,11 @@
       </asset>
       <asset xsi:type="esdl:GenericProducer" id="GenericProducer40" name="Other Renewable ">
         <port xsi:type="esdl:OutPort" id="GenericProducer40_OutPort1"/>
+      </asset>
+      <asset xsi:type="esdl:GasDemand" id="GasDemand41" name="Gas Demand Mobility">
+        <port xsi:type="esdl:InPort" id="GasDemand41_InPort1" connectedTo="GasNetwork1_OutPort8">
+          <profile xsi:type="esdl:SingleValue" name="Gas Demand Mobility"/>
+        </port>
       </asset>
     </area>
   </instance>
