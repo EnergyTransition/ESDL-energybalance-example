@@ -63,7 +63,7 @@
         <port xsi:type="esdl:InPort" id="PowerPlant13_InPort2" connectedTo="GenericProducer14_OutPort1"/>
       </asset>
       <asset xsi:type="esdl:GenericProducer" id="GenericProducer14" name="Coal Import">
-        <port xsi:type="esdl:OutPort" id="GenericProducer14_OutPort1" connectedTo="PowerPlant13_InPort2"/>
+        <port xsi:type="esdl:OutPort" id="GenericProducer14_OutPort1" connectedTo="PowerPlant13_InPort2 _T98RgOwJEeixUYkhwQ73mw"/>
       </asset>
       <asset xsi:type="esdl:PowerPlant" id="PowerPlant15" name="Uranium powered Power Plant">
         <port xsi:type="esdl:OutPort" id="PowerPlant15_OutPort1" connectedTo="ElectricityNetwork5_InPort7"/>
@@ -187,6 +187,11 @@
       <asset xsi:type="esdl:GasDemand" id="GasDemand41" name="Gas Demand Mobility">
         <port xsi:type="esdl:InPort" id="GasDemand41_InPort1" connectedTo="GasNetwork1_OutPort8">
           <profile xsi:type="esdl:SingleValue" name="Gas Demand Mobility"/>
+        </port>
+      </asset>
+      <asset xsi:type="esdl:EnergyDemand" id="_T97qcOwJEeixUYkhwQ73mw" name="Coal Final Demand">
+        <port xsi:type="esdl:InPort" id="_T98RgOwJEeixUYkhwQ73mw" connectedTo="GenericProducer14_OutPort1">
+          <profile xsi:type="esdl:SingleValue" name="Coal Final Demand"/>
         </port>
       </asset>
     </area>
