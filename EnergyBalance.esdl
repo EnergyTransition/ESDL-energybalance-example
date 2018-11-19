@@ -10,13 +10,13 @@
         <port xsi:type="esdl:OutPort" id="GasNetwork1_OutPort7" connectedTo="GasHeater18_InPort2 PowerPlant17_InPort2 CHP12_InPort2"/>
         <port xsi:type="esdl:OutPort" id="GasNetwork1_OutPort8" connectedTo="GasDemand3_InPort1 GasDemand36_InPort1 GasDemand37_InPort1 GasDemand23_InPort1 GasDemand38_InPort1 GasDemand41_InPort1"/>
       </asset>
-      <asset xsi:type="esdl:GenericProducer" id="GenericProducer2" name="Gas extraction">
+      <asset xsi:type="esdl:GenericProducer" id="GenericProducer2" name="Gas Extraction">
         <port xsi:type="esdl:OutPort" id="GenericProducer2_OutPort1" connectedTo="GasNetwork1_InPort2"/>
       </asset>
       <asset xsi:type="esdl:GenericProducer" id="GenericProducer3" name="Gas import">
         <port xsi:type="esdl:OutPort" id="GenericProducer3_OutPort1" connectedTo="GasNetwork1_InPort2"/>
       </asset>
-      <asset xsi:type="esdl:Losses" id="Losses4" name="Verliezen Gasnetwerk">
+      <asset xsi:type="esdl:Losses" id="Losses4" name="Losses Gas Network">
         <port xsi:type="esdl:InPort" id="Losses4_InPort1" connectedTo="GasNetwork1_OutPort4"/>
       </asset>
       <asset xsi:type="esdl:ElectricityNetwork" id="ElectricityNetwork5" name="Electricity Network">
@@ -32,7 +32,7 @@
       <asset xsi:type="esdl:PVParc" id="PVParc7" name="PV Parc">
         <port xsi:type="esdl:OutPort" id="PVParc7_OutPort1" connectedTo="ElectricityNetwork5_InPort7"/>
       </asset>
-      <asset xsi:type="esdl:HeatNetwork" id="HeatNetwork8" name="District Heating Network Wijkwarmte">
+      <asset xsi:type="esdl:HeatNetwork" id="HeatNetwork8" name="District Heating Network">
         <port xsi:type="esdl:InPort" id="HeatNetwork8_InPort2" connectedTo="HeatPump11_OutPort1 GasHeater18_OutPort1 CHP12_OutPort1 GeothermalSource9_OutPort1 ResidualHeatSource10_OutPort2"/>
         <port xsi:type="esdl:OutPort" id="HeatNetwork8_OutPort7" connectedTo="Losses19_InPort1"/>
         <port xsi:type="esdl:OutPort" id="HeatNetwork8_OutPort8" connectedTo="HeatingDemand1_InPort1 HeatingDemand20_InPort1 HeatingDemand21_InPort1 HeatingDemand32_InPort1"/>
@@ -82,7 +82,7 @@
           <profile xsi:type="esdl:SingleValue" name="Gas Backup Heater" profileType="ENERGY_IN_PJ" value="5.3"/>
         </port>
       </asset>
-      <asset xsi:type="esdl:Losses" id="Losses19" name="Distributieverlies Warmte">
+      <asset xsi:type="esdl:Losses" id="Losses19" name="Losses District Heating Network">
         <port xsi:type="esdl:InPort" id="Losses19_InPort1" connectedTo="HeatNetwork8_OutPort7">
           <profile xsi:type="esdl:SingleValue" name="Omgevingsverlies WijkWarmte" profileType="ENERGY_IN_PJ" value="4.8"/>
         </port>

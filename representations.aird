@@ -2626,7 +2626,7 @@
           </ownedStyle>
           <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/esdl.design/description/esdl.odesign#//@ownedViewpoints[name='ESDL%20Viewpoint']/@ownedRepresentations[name='ESDL%20Diagram']/@defaultLayer/@containerMappings[name='Instance']/@subContainerMappings[name='AreaContainer']/@subNodeMappings[name='EnergyAsset']"/>
         </ownedDiagramElements>
-        <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_BWPFgLy0EeipiuWfn5Idig" name="Gas extraction" width="12" height="4" resizeKind="NSEW">
+        <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_BWPFgLy0EeipiuWfn5Idig" name="Gas Extraction" width="12" height="4" resizeKind="NSEW">
           <target xmi:type="esdl:GenericProducer" href="EnergyBalance.esdl#GenericProducer2"/>
           <semanticElements xmi:type="esdl:GenericProducer" href="EnergyBalance.esdl#GenericProducer2"/>
           <ownedBorderedNodes xmi:type="diagram:DNode" xmi:id="_BWfkMLy0EeipiuWfn5Idig" tooltipText="GenericProducer2_OutPort1" outgoingEdges="_i-5OcLzFEeipiuWfn5Idig" width="1" height="1" resizeKind="NSEW">
@@ -2672,7 +2672,7 @@
           </ownedStyle>
           <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/esdl.design/description/esdl.odesign#//@ownedViewpoints[name='ESDL%20Viewpoint']/@ownedRepresentations[name='ESDL%20Diagram']/@defaultLayer/@containerMappings[name='Instance']/@subContainerMappings[name='AreaContainer']/@subNodeMappings[name='EnergyAsset']"/>
         </ownedDiagramElements>
-        <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_Cma7ALy0EeipiuWfn5Idig" name="Verliezen Gasnetwerk" width="12" height="4" resizeKind="NSEW">
+        <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_Cma7ALy0EeipiuWfn5Idig" name="Losses Gas Network" width="12" height="4" resizeKind="NSEW">
           <target xmi:type="esdl:Losses" href="EnergyBalance.esdl#Losses4"/>
           <semanticElements xmi:type="esdl:Losses" href="EnergyBalance.esdl#Losses4"/>
           <ownedBorderedNodes xmi:type="diagram:DNode" xmi:id="_CmiPwLy0EeipiuWfn5Idig" tooltipText="Losses4_InPort1" incomingEdges="_kgVMALzFEeipiuWfn5Idig" width="1" height="1" resizeKind="NSEW">
@@ -2808,7 +2808,7 @@
           </ownedStyle>
           <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/esdl.design/description/esdl.odesign#//@ownedViewpoints[name='ESDL%20Viewpoint']/@ownedRepresentations[name='ESDL%20Diagram']/@defaultLayer/@containerMappings[name='Instance']/@subContainerMappings[name='AreaContainer']/@subNodeMappings[name='EnergyAsset']"/>
         </ownedDiagramElements>
-        <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="__TsoMLzCEeipiuWfn5Idig" name="District Heating Network Wijkwarmte" width="12" height="4" resizeKind="NSEW">
+        <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="__TsoMLzCEeipiuWfn5Idig" name="District Heating Network" width="12" height="4" resizeKind="NSEW">
           <target xmi:type="esdl:HeatNetwork" href="EnergyBalance.esdl#HeatNetwork8"/>
           <semanticElements xmi:type="esdl:HeatNetwork" href="EnergyBalance.esdl#HeatNetwork8"/>
           <ownedBorderedNodes xmi:type="diagram:DNode" xmi:id="__UBYUbzCEeipiuWfn5Idig" tooltipText="HeatNetwork8_InPort2" incomingEdges="_lTDCYLzFEeipiuWfn5Idig _vSg4cONiEeihIqbzPbEYpA _w8d40ONiEeihIqbzPbEYpA _zB2Q8ONiEeihIqbzPbEYpA _1DAQYONiEeihIqbzPbEYpA" width="1" height="1" resizeKind="NSEW">
@@ -3189,7 +3189,7 @@
           </ownedStyle>
           <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/esdl.design/description/esdl.odesign#//@ownedViewpoints[name='ESDL%20Viewpoint']/@ownedRepresentations[name='ESDL%20Diagram']/@defaultLayer/@containerMappings[name='Instance']/@subContainerMappings[name='AreaContainer']/@subNodeMappings[name='EnergyAsset']"/>
         </ownedDiagramElements>
-        <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_Y1pT8MWAEeiBMf9hTl2FZw" name="Distributieverlies Warmte" width="12" height="4" resizeKind="NSEW">
+        <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_Y1pT8MWAEeiBMf9hTl2FZw" name="Losses District Heating Network" width="12" height="4" resizeKind="NSEW">
           <target xmi:type="esdl:Losses" href="EnergyBalance.esdl#Losses19"/>
           <semanticElements xmi:type="esdl:Losses" href="EnergyBalance.esdl#Losses19"/>
           <ownedBorderedNodes xmi:type="diagram:DNode" xmi:id="_Y1wosMWAEeiBMf9hTl2FZw" tooltipText="Losses19_InPort1" outgoingEdges="_Pgt6AMWCEeiBMf9hTl2FZw" incomingEdges="_bzeXAMWAEeiBMf9hTl2FZw" width="1" height="1" resizeKind="NSEW">
