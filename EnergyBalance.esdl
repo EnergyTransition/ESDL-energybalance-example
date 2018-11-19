@@ -194,6 +194,14 @@
           <profile xsi:type="esdl:SingleValue" name="Coal Final Demand"/>
         </port>
       </asset>
+      <asset xsi:type="esdl:GenericProducer" id="_SH9x4OwKEeixUYkhwQ73mw" name="Oil Products Import">
+        <port xsi:type="esdl:OutPort" id="_SH-Y8OwKEeixUYkhwQ73mw" connectedTo="_akl_8ewKEeixUYkhwQ73mw"/>
+      </asset>
+      <asset xsi:type="esdl:EnergyDemand" id="_akl_8OwKEeixUYkhwQ73mw" name="Oil Products Final Demand">
+        <port xsi:type="esdl:InPort" id="_akl_8ewKEeixUYkhwQ73mw" connectedTo="_SH-Y8OwKEeixUYkhwQ73mw">
+          <profile xsi:type="esdl:SingleValue" name="Oil Products Final Demand"/>
+        </port>
+      </asset>
     </area>
   </instance>
   <energySystemInformation>
