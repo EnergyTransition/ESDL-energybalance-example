@@ -37,14 +37,14 @@
           <profile xsi:type="esdl:SingleValue" name="District Heating Network"/>
         </port>
         <port xsi:type="esdl:OutPort" id="HeatNetwork8_OutPort7" connectedTo="Losses19_InPort1"/>
-        <port xsi:type="esdl:OutPort" id="HeatNetwork8_OutPort8" connectedTo="HeatingDemand1_InPort1 HeatingDemand20_InPort1 HeatingDemand21_InPort1 HeatingDemand32_InPort1"/>
+        <port xsi:type="esdl:OutPort" id="HeatNetwork8_OutPort8" connectedTo="HeatingDemand1_InPort1 HeatingDemand20_InPort1"/>
       </asset>
       <asset xsi:type="esdl:GeothermalSource" id="GeothermalSource9" name="Geothermal Heater">
         <port xsi:type="esdl:OutPort" id="GeothermalSource9_OutPort1" connectedTo="HeatNetwork8_InPort2"/>
       </asset>
       <asset xsi:type="esdl:ResidualHeatSource" id="ResidualHeatSource10" name="Residual Heat">
         <port xsi:type="esdl:OutPort" id="ResidualHeatSource10_OutPort1" connectedTo="HeatPump11_InPort2"/>
-        <port xsi:type="esdl:OutPort" id="ResidualHeatSource10_OutPort2" connectedTo="HeatNetwork8_InPort2 HeatingDemand22_InPort1">
+        <port xsi:type="esdl:OutPort" id="ResidualHeatSource10_OutPort2" connectedTo="HeatNetwork8_InPort2">
           <profile xsi:type="esdl:SingleValue" name="Residual Heat" profileType="ENERGY_IN_PJ" value="19.4"/>
         </port>
       </asset>
@@ -58,7 +58,7 @@
         <port xsi:type="esdl:OutPort" id="CHP12_OutPort1" connectedTo="HeatNetwork8_InPort2"/>
         <port xsi:type="esdl:InPort" id="CHP12_InPort2" connectedTo="GasNetwork1_OutPort7"/>
         <port xsi:type="esdl:OutPort" id="CHP12_OutPort3" connectedTo="ElectricityNetwork5_InPort3"/>
-        <port xsi:type="esdl:OutPort" id="CHP12_OutPort4" connectedTo="HeatingDemand22_InPort1"/>
+        <port xsi:type="esdl:OutPort" id="CHP12_OutPort4"/>
       </asset>
       <asset xsi:type="esdl:PowerPlant" id="PowerPlant13" name="Coal powered Power Plant">
         <port xsi:type="esdl:OutPort" id="PowerPlant13_OutPort1" connectedTo="ElectricityNetwork5_InPort7"/>
@@ -86,7 +86,7 @@
       </asset>
       <asset xsi:type="esdl:Losses" id="Losses19" name="Losses District Heating Network">
         <port xsi:type="esdl:InPort" id="Losses19_InPort1" connectedTo="HeatNetwork8_OutPort7">
-          <profile xsi:type="esdl:SingleValue" name="Omgevingsverlies WijkWarmte" profileType="ENERGY_IN_PJ" value="4.8"/>
+          <profile xsi:type="esdl:SingleValue" name="Losses District Heating Network" profileType="ENERGY_IN_PJ" value="4.8"/>
         </port>
       </asset>
       <asset xsi:type="esdl:HeatingDemand" id="HeatingDemand1" name="Heat Demand Residences">
@@ -100,12 +100,12 @@
         </port>
       </asset>
       <asset xsi:type="esdl:HeatingDemand" id="HeatingDemand21" name="Heat Demand Agriculture">
-        <port xsi:type="esdl:InPort" id="HeatingDemand21_InPort1" connectedTo="HeatNetwork8_OutPort8">
+        <port xsi:type="esdl:InPort" id="HeatingDemand21_InPort1">
           <profile xsi:type="esdl:SingleValue" name="Heat Demand Agriculture" profileType="ENERGY_IN_PJ" value="5.5"/>
         </port>
       </asset>
       <asset xsi:type="esdl:HeatingDemand" id="HeatingDemand22" name="Sold Heat Demand Industry">
-        <port xsi:type="esdl:InPort" id="HeatingDemand22_InPort1" connectedTo="ResidualHeatSource10_OutPort2 CHP12_OutPort4">
+        <port xsi:type="esdl:InPort" id="HeatingDemand22_InPort1">
           <profile xsi:type="esdl:SingleValue" name="Sold Heat Demand Industry" profileType="ENERGY_IN_PJ" value="96.48642000000002"/>
         </port>
       </asset>
@@ -133,7 +133,7 @@
         <port xsi:type="esdl:OutPort" id="PVPanel8_OutPort1" connectedTo="ElectricityNetwork5_InPort7"/>
       </asset>
       <asset xsi:type="esdl:HeatingDemand" id="HeatingDemand32" name="Heat Demand Other">
-        <port xsi:type="esdl:InPort" id="HeatingDemand32_InPort1" connectedTo="HeatNetwork8_OutPort8">
+        <port xsi:type="esdl:InPort" id="HeatingDemand32_InPort1">
           <profile xsi:type="esdl:SingleValue" name="Heat Demand Other"/>
         </port>
       </asset>
