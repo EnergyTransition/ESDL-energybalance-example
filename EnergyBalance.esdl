@@ -33,7 +33,7 @@
         <port xsi:type="esdl:OutPort" id="PVParc7_OutPort1" connectedTo="ElectricityNetwork5_InPort7"/>
       </asset>
       <asset xsi:type="esdl:HeatNetwork" id="HeatNetwork8" name="District Heating Network">
-        <port xsi:type="esdl:InPort" id="HeatNetwork8_InPort2" connectedTo="HeatPump11_OutPort1 GasHeater18_OutPort1 CHP12_OutPort1 GeothermalSource9_OutPort1 ResidualHeatSource10_OutPort2">
+        <port xsi:type="esdl:InPort" id="HeatNetwork8_InPort2" connectedTo="HeatPump11_OutPort1 GasHeater18_OutPort1 CHP12_OutPort1 GeothermalSource9_OutPort1 ResidualHeatSource10_OutPort2 _Y0vGAPSIEeixUYkhwQ73mw">
           <profile xsi:type="esdl:SingleValue" name="District Heating Network"/>
         </port>
         <port xsi:type="esdl:OutPort" id="HeatNetwork8_OutPort7" connectedTo="Losses19_InPort1"/>
@@ -100,12 +100,12 @@
         </port>
       </asset>
       <asset xsi:type="esdl:HeatingDemand" id="HeatingDemand21" name="Heat Demand Agriculture">
-        <port xsi:type="esdl:InPort" id="HeatingDemand21_InPort1">
+        <port xsi:type="esdl:InPort" id="HeatingDemand21_InPort1" connectedTo="_Y0vGAPSIEeixUYkhwQ73mw">
           <profile xsi:type="esdl:SingleValue" name="Heat Demand Agriculture" profileType="ENERGY_IN_PJ" value="5.5"/>
         </port>
       </asset>
       <asset xsi:type="esdl:HeatingDemand" id="HeatingDemand22" name="Sold Heat Demand Industry">
-        <port xsi:type="esdl:InPort" id="HeatingDemand22_InPort1">
+        <port xsi:type="esdl:InPort" id="HeatingDemand22_InPort1" connectedTo="_Y0vGAPSIEeixUYkhwQ73mw">
           <profile xsi:type="esdl:SingleValue" name="Sold Heat Demand Industry" profileType="ENERGY_IN_PJ" value="96.48642000000002"/>
         </port>
       </asset>
@@ -133,7 +133,7 @@
         <port xsi:type="esdl:OutPort" id="PVPanel8_OutPort1" connectedTo="ElectricityNetwork5_InPort7"/>
       </asset>
       <asset xsi:type="esdl:HeatingDemand" id="HeatingDemand32" name="Heat Demand Other">
-        <port xsi:type="esdl:InPort" id="HeatingDemand32_InPort1">
+        <port xsi:type="esdl:InPort" id="HeatingDemand32_InPort1" connectedTo="_Y0vGAPSIEeixUYkhwQ73mw">
           <profile xsi:type="esdl:SingleValue" name="Heat Demand Other"/>
         </port>
       </asset>
@@ -202,6 +202,12 @@
       <asset xsi:type="esdl:EnergyDemand" id="_akl_8OwKEeixUYkhwQ73mw" name="Oil Products Final Demand">
         <port xsi:type="esdl:InPort" id="_akl_8ewKEeixUYkhwQ73mw" connectedTo="_SH-Y8OwKEeixUYkhwQ73mw">
           <profile xsi:type="esdl:SingleValue" name="Oil Products Final Demand"/>
+        </port>
+      </asset>
+      <asset xsi:type="esdl:HeatNetwork" id="_Y0ue8PSIEeixUYkhwQ73mw" name="Central Heating Network">
+        <port xsi:type="esdl:OutPort" id="_Y0vGAPSIEeixUYkhwQ73mw" connectedTo="HeatNetwork8_InPort2 HeatingDemand21_InPort1 HeatingDemand22_InPort1 HeatingDemand32_InPort1"/>
+        <port xsi:type="esdl:InPort" id="_Y0vGAfSIEeixUYkhwQ73mw">
+          <profile xsi:type="esdl:SingleValue" name="Central Heating Network"/>
         </port>
       </asset>
     </area>
