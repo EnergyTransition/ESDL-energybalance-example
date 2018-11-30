@@ -33,20 +33,23 @@
         <port xsi:type="esdl:OutPort" id="PVParc7_OutPort1" connectedTo="ElectricityNetwork5_InPort7"/>
       </asset>
       <asset xsi:type="esdl:HeatNetwork" id="HeatNetwork8" name="District Heating Network">
-        <port xsi:type="esdl:InPort" id="HeatNetwork8_InPort2" connectedTo="HeatPump11_OutPort1 GasHeater18_OutPort1 CHP12_OutPort1 GeothermalSource9_OutPort1 ResidualHeatSource10_OutPort2 _Y0vGAPSIEeixUYkhwQ73mw">
+        <port xsi:type="esdl:InPort" id="HeatNetwork8_InPort2" connectedTo="HeatPump11_OutPort1 GasHeater18_OutPort1 CHP12_OutPort1 GeothermalSource9_OutPort1 ResidualHeatSource10_OutPort2">
           <profile xsi:type="esdl:SingleValue" name="District Heating Network"/>
         </port>
         <port xsi:type="esdl:OutPort" id="HeatNetwork8_OutPort7" connectedTo="Losses19_InPort1"/>
         <port xsi:type="esdl:OutPort" id="HeatNetwork8_OutPort8" connectedTo="HeatingDemand1_InPort1 HeatingDemand20_InPort1"/>
       </asset>
       <asset xsi:type="esdl:GeothermalSource" id="GeothermalSource9" name="Geothermal Heater">
-        <port xsi:type="esdl:OutPort" id="GeothermalSource9_OutPort1" connectedTo="HeatNetwork8_InPort2"/>
+        <port xsi:type="esdl:OutPort" id="GeothermalSource9_OutPort1" connectedTo="HeatNetwork8_InPort2">
+          <profile xsi:type="esdl:SingleValue" name="Geothermal Heater"/>
+        </port>
       </asset>
       <asset xsi:type="esdl:ResidualHeatSource" id="ResidualHeatSource10" name="Residual Heat">
         <port xsi:type="esdl:OutPort" id="ResidualHeatSource10_OutPort1" connectedTo="HeatPump11_InPort2"/>
         <port xsi:type="esdl:OutPort" id="ResidualHeatSource10_OutPort2" connectedTo="HeatNetwork8_InPort2">
           <profile xsi:type="esdl:SingleValue" name="Residual Heat" profileType="ENERGY_IN_PJ" value="19.4"/>
         </port>
+        <port xsi:type="esdl:InPort" id="_31RFMPSQEeixUYkhwQ73mw" connectedTo="_Y0vGAPSIEeixUYkhwQ73mw"/>
       </asset>
       <asset xsi:type="esdl:HeatPump" id="HeatPump11" name="Heat Pump">
         <port xsi:type="esdl:OutPort" id="HeatPump11_OutPort1" connectedTo="HeatNetwork8_InPort2"/>
@@ -205,7 +208,7 @@
         </port>
       </asset>
       <asset xsi:type="esdl:HeatNetwork" id="_Y0ue8PSIEeixUYkhwQ73mw" name="Central Heating Network">
-        <port xsi:type="esdl:OutPort" id="_Y0vGAPSIEeixUYkhwQ73mw" connectedTo="HeatNetwork8_InPort2 HeatingDemand21_InPort1 HeatingDemand22_InPort1 HeatingDemand32_InPort1"/>
+        <port xsi:type="esdl:OutPort" id="_Y0vGAPSIEeixUYkhwQ73mw" connectedTo="HeatingDemand21_InPort1 HeatingDemand22_InPort1 HeatingDemand32_InPort1 _31RFMPSQEeixUYkhwQ73mw"/>
         <port xsi:type="esdl:InPort" id="_Y0vGAfSIEeixUYkhwQ73mw">
           <profile xsi:type="esdl:SingleValue" name="Central Heating Network"/>
         </port>
